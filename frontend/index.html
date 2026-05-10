@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
     return cl;
   }
 
-  let currentFilter = 'ALL', currentHypFilter = null;
+  let currentFilter = 'ALL', currentHypFilter = null, currentCaseId = null, visibleCaseIds = [];
   const searchInput = document.getElementById('globalSearch'), caseList = document.getElementById('caseList');
 
   window.filterType = function(type) {
@@ -224,9 +224,10 @@ document.addEventListener('DOMContentLoaded', function() {
       return (tM || lM || idM) && tyM && hM;
     });
 
+    visibleCaseIds = filtered.map(c => c.case_id);
     filtered.forEach(c => {
       const f = (D.forensics && D.forensics[c.case_id]) ? D.forensics[c.case_id] : {};
-      const aData = f.scientific_completion_audit || {};
+      const aData = f.audit || {};
       const bayes = f.bayesian || [];
       let d = 0, tot = 5;
       if (aData.database_complete) d++; if (aData.ocr_complete) d++; if (aData.witness_matrix_complete) d++; if (aData.environmental_complete) d++; if (aData.classification_final) d++;
@@ -242,6 +243,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const vType = getVisualType(c);
       const bCol = (vType === 'VID' ? 'bg-danger' : vType === 'PDF' ? 'bg-primary' : vType === 'IMG' ? 'bg-success' : 'bg-warning text-dark');
       const div = document.createElement('div'); div.className = 'case-item d-flex align-items-start gap-2';
+      div.dataset.caseId = String(c.case_id);
       div.innerHTML = '<div style="width: 8px; height: 8px; border-radius: 50%; background: ' + col + '; margin-top: 6px; flex-shrink: 0;"></div>' +
           '<div class="flex-grow-1 overflow-hidden">' +
             '<div class="d-flex justify-content-between align-items-start mb-1">' +
@@ -256,9 +258,57 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  function getCaseElement(id) {
+    return caseList.querySelector('.case-item[data-case-id="' + CSS.escape(String(id)) + '"]');
+  }
+
+  function showRelativeCase(delta) {
+    if (!visibleCaseIds.length) return;
+    let idx = visibleCaseIds.indexOf(currentCaseId);
+    if (idx < 0) idx = delta > 0 ? -1 : 0;
+    const nextIdx = Math.max(0, Math.min(visibleCaseIds.length - 1, idx + delta));
+    const nextId = visibleCaseIds[nextIdx];
+    if (nextId === currentCaseId) return;
+    const el = getCaseElement(nextId);
+    showCase(nextId, el);
+    if (el) el.scrollIntoView({block: 'nearest'});
+  }
+
+  function showRelativeTab(delta) {
+    const tabs = Array.from(document.querySelectorAll('#detailTabs .nav-link'))
+      .filter(tab => {
+        const item = tab.closest('.nav-item');
+        return !item || item.style.display !== 'none';
+      });
+    if (!tabs.length) return;
+    const activeIdx = Math.max(0, tabs.findIndex(tab => tab.classList.contains('active')));
+    const nextIdx = Math.max(0, Math.min(tabs.length - 1, activeIdx + delta));
+    if (nextIdx === activeIdx) return;
+    bootstrap.Tab.getOrCreateInstance(tabs[nextIdx]).show();
+  }
+
+  function ensureActiveTabVisible() {
+    const active = document.querySelector('#detailTabs .nav-link.active');
+    const activeItem = active ? active.closest('.nav-item') : null;
+    if (active && activeItem && activeItem.style.display !== 'none') return;
+    const summary = document.querySelector('#detailTabs .nav-link[data-bs-target="#tab-summary"]');
+    if (summary) bootstrap.Tab.getOrCreateInstance(summary).show();
+  }
+
+  function shouldIgnoreArrowShortcut(event) {
+    if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey) return true;
+    if (document.querySelector('.modal.show')) return true;
+    const el = event.target;
+    if (!el) return false;
+    const tag = el.tagName ? el.tagName.toLowerCase() : '';
+    return el.isContentEditable || tag === 'input' || tag === 'textarea' || tag === 'select';
+  }
+
   function showCase(id, el) {
     document.querySelectorAll('.case-item').forEach(i => i.classList.remove('active'));
+    if (!el) el = getCaseElement(id);
     if (el) el.classList.add('active');
+    currentCaseId = id;
     const c = D.records.find(x => x.case_id === id);
     const f = (D.forensics && D.forensics[id]) ? D.forensics[id] : {};
     const assets = f.assets || [];
@@ -300,6 +350,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (imgPath) btn.onclick = () => openImgModal(imgPath, c.title);
       document.getElementById('nav-kinematics').style.display = 'block';
     }
+    ensureActiveTabVisible();
     addSourceButton();
 
     const sourceRows = assets
@@ -346,14 +397,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const bayes = f.bayesian || []; document.getElementById('bayesianScores').innerHTML = bayes.length ? bayes.sort((a,b)=>b.normalized_probability - a.normalized_probability).map(b => '<div class="mb-2"><div class="d-flex justify-content-between small fw-bold"><span>' + b.hypothesis + '</span><span>' + (b.normalized_probability*100).toFixed(1) + '%</span></div><div class="progress" style="height: 5px;"><div class="progress-bar bg-warning" style="width: ' + (b.normalized_probability*100) + '%"></div></div></div>').join('') : '<small class="text-muted">Pending.</small>';
     
     // Audit Status Fix
-    const aStat = f.scientific_completion_audit || {};
+    const aStat = f.audit || {};
     const checklist = [{key:'database_complete', label:'DB Integrity'},{key:'ocr_complete', label:'OCR processing'},{key:'witness_matrix_complete', label:'Witness matrix'},{key:'environmental_complete', label:'Environmental'},{key:'classification_final', label:'Review'}];
     if (c.asset_type === 'VID' && !isA) checklist.splice(2,0,{key:'video_analysis_complete', label:'Kinematic track'});
     document.getElementById('auditStatus').innerHTML = checklist.map(item => '<div class="audit-item"><span>' + item.label + '</span><span class="' + (aStat[item.key] ? 'audit-done' : 'audit-todo') + '">' + (aStat[item.key] ? '✓' : '•') + '</span></div>').join('');
     
     // Corroboration Fix
     const corr = f.corroboration || [];
-    document.getElementById('corroborationMetrics').innerHTML = corr.length ? corr.map(m => '<div class="d-flex justify-content-between py-1 small border-bottom"><span>' + m.feature_key.replace(/_/g, ' ') + '</span><span class="fw-bold">' + m.claim_count + ' claims / ' + m.possible_independent_count + ' indep.</span></div>').join('') : '<small class="text-muted">No corroboration data.</small>';
+    document.getElementById('corroborationMetrics').innerHTML = corr.length ? corr.map(m => {
+      const label = String(m.feature_key || 'corroborated feature').replace(/[_:]/g, ' ');
+      const claims = m.claim_count ?? 0;
+      const pages = m.page_count ?? 0;
+      const independent = m.possible_independent_count ?? 0;
+      return '<div class="py-1 small border-bottom"><div class="d-flex justify-content-between gap-2"><span>' + esc(label) + '</span><span class="fw-bold text-nowrap">' + claims + ' claims</span></div><div class="text-muted" style="font-size:0.68rem">' + pages + ' pages / ' + independent + ' possible independent</div></div>';
+    }).join('') : '<small class="text-muted">No corroboration rows for this case.</small>';
 
     const mtx = f.witness_matrix || []; document.getElementById('witnessMatrixList').innerHTML = mtx.length ? mtx.slice(0, 15).map(w => '<div class="card border-0 mb-3 bg-white shadow-sm p-2"><div class="d-flex justify-content-between mb-1"><span class="small fw-bold text-primary">' + (w.claim_type || '').replace(/_/g, ' ') + '</span><span class="text-muted" style="font-size:0.6rem">P.' + w.source_page + '</span></div><div class="quote-box small">"' + (w.source_quote || '') + '"</div><div class="small">' + (w.shape ? '<span class="trait-badge">' + w.shape + '</span>' : '') + (w.motion ? '<span class="trait-badge">' + w.motion + '</span>' : '') + '</div></div>').join('') : '<div class="text-muted small">No snippets.</div>';
   }
@@ -404,6 +461,22 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   searchInput.oninput = (e) => renderList(e.target.value);
+  document.addEventListener('keydown', function(event) {
+    if (shouldIgnoreArrowShortcut(event)) return;
+    if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      showRelativeCase(1);
+    } else if (event.key === 'ArrowUp') {
+      event.preventDefault();
+      showRelativeCase(-1);
+    } else if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      showRelativeTab(-1);
+    } else if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      showRelativeTab(1);
+    }
+  });
   setupHypFilters(); renderList();
 });
 </script>
