@@ -256,6 +256,13 @@ document.addEventListener('DOMContentLoaded', function() {
       div.onclick = () => showCase(c.case_id, div);
       caseList.appendChild(div);
     });
+    if (visibleCaseIds.length && !visibleCaseIds.includes(currentCaseId)) {
+      showCase(visibleCaseIds[0], getCaseElement(visibleCaseIds[0]));
+    } else if (!visibleCaseIds.length) {
+      currentCaseId = null;
+      document.getElementById('welcomeScreen').style.display = 'block';
+      document.getElementById('caseDetail').style.display = 'none';
+    }
   }
 
   function getCaseElement(id) {
