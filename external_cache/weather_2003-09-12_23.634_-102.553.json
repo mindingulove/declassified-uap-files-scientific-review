@@ -1,0 +1,49 @@
+{
+  "latitude": 23.655535,
+  "longitude": -102.53165,
+  "generationtime_ms": 19.811272621154785,
+  "utc_offset_seconds": 0,
+  "timezone": "GMT",
+  "timezone_abbreviation": "GMT",
+  "elevation": 1976.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "\u00b0C",
+    "temperature_2m_min": "\u00b0C",
+    "precipitation_sum": "mm",
+    "rain_sum": "mm",
+    "snowfall_sum": "cm",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2003-09-12"
+    ],
+    "temperature_2m_max": [
+      21.5
+    ],
+    "temperature_2m_min": [
+      13.2
+    ],
+    "precipitation_sum": [
+      4.8
+    ],
+    "rain_sum": [
+      4.8
+    ],
+    "snowfall_sum": [
+      0.0
+    ],
+    "wind_speed_10m_max": [
+      13.8
+    ],
+    "wind_gusts_10m_max": [
+      22.3
+    ],
+    "weather_code": [
+      61
+    ]
+  }
+}

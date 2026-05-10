@@ -1,0 +1,1 @@
+https://www.war.gov/Desktopmodules/SharedLibrary/ValidatedPlugins/vue-resource/vue-resource.min.js?cdv=2020

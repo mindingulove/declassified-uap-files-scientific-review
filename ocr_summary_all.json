@@ -1,0 +1,722 @@
+[
+  {
+    "record_index": 157,
+    "title": "FBI September 2023 Sighting - Composite Sketch",
+    "ocr_path": "./ocr_text/157-fbi-september-2023-sighting---composite-sketch.ocr.txt",
+    "ocr_chars": 395,
+    "priority_score": 9,
+    "priority_reasons": [
+      "multi-witness/corroboration language",
+      "generic eyewitness-history language",
+      "forensic/rendered witness-composite material"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 159,
+    "title": "FBI September 2023 Sighting - Serial 4",
+    "ocr_path": "./ocr_text/159-fbi-september-2023-sighting---serial-4.ocr.txt",
+    "ocr_chars": 3719,
+    "priority_score": 8,
+    "priority_reasons": [
+      "formal FBI 302 witness interview",
+      "direct witness testimony"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 22,
+    "title": "331_120752_Numeric_Files_1944\u20131945_37153_German_Armament_Equipment_Documents",
+    "ocr_path": "./ocr_text/022-331_120752_numeric_files_1944-1945_37153_german_armament_equipment_documents.ocr.txt",
+    "ocr_chars": 19304,
+    "priority_score": 4,
+    "priority_reasons": [
+      "WWII-era UAP/foofighter historical record"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 25,
+    "title": "342_HS1-416511228_319.1 Flying Discs 1949",
+    "ocr_path": "./ocr_text/025-342_hs1-416511228_319.1-flying-discs-1949.ocr.txt",
+    "ocr_chars": 115133,
+    "priority_score": 4,
+    "priority_reasons": [
+      "structured historical incident-report collection"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 29,
+    "title": "59_214434_SP 16 [7.18.1963]",
+    "ocr_path": "./ocr_text/029-59_214434_sp-16-7.18.1963.ocr.txt",
+    "ocr_chars": 12494,
+    "priority_score": 4,
+    "priority_reasons": [
+      "unique presidential-council policy memo"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 32,
+    "title": "65_HS1-101634279_100-DE-26505",
+    "ocr_path": "./ocr_text/032-65_hs1-101634279_100-de-26505.ocr.txt",
+    "ocr_chars": 15533,
+    "priority_score": 4,
+    "priority_reasons": [
+      "WWII-era UAP/foofighter historical record"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 1,
+    "title": "65_HS1-834228961_62-HQ-83894_Section_10",
+    "ocr_path": "./ocr_text/001-65_hs1-834228961_62-hq-83894_section_10.ocr.txt",
+    "ocr_chars": 395823,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 2,
+    "title": "65_HS1-834228961_62-HQ-83894_Section_2",
+    "ocr_path": "./ocr_text/002-65_hs1-834228961_62-hq-83894_section_2.ocr.txt",
+    "ocr_chars": 178372,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 3,
+    "title": "65_HS1-834228961_62-HQ-83894_Section_3",
+    "ocr_path": "./ocr_text/003-65_hs1-834228961_62-hq-83894_section_3.ocr.txt",
+    "ocr_chars": 251653,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 4,
+    "title": "65_HS1-834228961_62-HQ-83894_Section_4",
+    "ocr_path": "./ocr_text/004-65_hs1-834228961_62-hq-83894_section_4.ocr.txt",
+    "ocr_chars": 202299,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 5,
+    "title": "65_HS1-834228961_62-HQ-83894_Section_5",
+    "ocr_path": "./ocr_text/005-65_hs1-834228961_62-hq-83894_section_5.ocr.txt",
+    "ocr_chars": 153178,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 6,
+    "title": "65_HS1-834228961_62-HQ-83894_Section_6",
+    "ocr_path": "./ocr_text/006-65_hs1-834228961_62-hq-83894_section_6.ocr.txt",
+    "ocr_chars": 338032,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 7,
+    "title": "65_HS1-834228961_62-HQ-83894_Section_7",
+    "ocr_path": "./ocr_text/007-65_hs1-834228961_62-hq-83894_section_7.ocr.txt",
+    "ocr_chars": 212041,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 8,
+    "title": "65_HS1-834228961_62-HQ-83894_Section_9",
+    "ocr_path": "./ocr_text/008-65_hs1-834228961_62-hq-83894_section_9.ocr.txt",
+    "ocr_chars": 257221,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 9,
+    "title": "65_HS1-834228961_62-HQ-83894_Serial_130",
+    "ocr_path": "./ocr_text/009-65_hs1-834228961_62-hq-83894_serial_130.ocr.txt",
+    "ocr_chars": 175946,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 10,
+    "title": "65_HS1-834228961_62-HQ-83894_Serial_153",
+    "ocr_path": "./ocr_text/010-65_hs1-834228961_62-hq-83894_serial_153.ocr.txt",
+    "ocr_chars": 2071,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 11,
+    "title": "65_HS1-834228961_62-HQ-83894_Serial_164",
+    "ocr_path": "./ocr_text/011-65_hs1-834228961_62-hq-83894_serial_164.ocr.txt",
+    "ocr_chars": 153272,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 12,
+    "title": "65_HS1-834228961_62-HQ-83894_Serial_220",
+    "ocr_path": "./ocr_text/012-65_hs1-834228961_62-hq-83894_serial_220.ocr.txt",
+    "ocr_chars": 16992,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 13,
+    "title": "65_HS1-834228961_62-HQ-83894_Serial_403",
+    "ocr_path": "./ocr_text/013-65_hs1-834228961_62-hq-83894_serial_403.ocr.txt",
+    "ocr_chars": 4687,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 14,
+    "title": "65_HS1-834228961_62-HQ-83894_Serial_438",
+    "ocr_path": "./ocr_text/014-65_hs1-834228961_62-hq-83894_serial_438.ocr.txt",
+    "ocr_chars": 42830,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 15,
+    "title": "65_HS1-834228961_62-HQ-83894_Serial_449",
+    "ocr_path": "./ocr_text/015-65_hs1-834228961_62-hq-83894_serial_449.ocr.txt",
+    "ocr_chars": 119004,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 16,
+    "title": "65_HS1-834228961_62-HQ-83894_SUB_A",
+    "ocr_path": "./ocr_text/016-65_hs1-834228961_62-hq-83894_sub_a.ocr.txt",
+    "ocr_chars": 250780,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 34,
+    "title": "65_HS1-834228961_62-HQ-83894_Section_8",
+    "ocr_path": "./ocr_text/034-65_hs1-834228961_62-hq-83894_section_8.ocr.txt",
+    "ocr_chars": 213094,
+    "priority_score": 2,
+    "priority_reasons": [
+      "generic eyewitness-history language",
+      "large FBI historical UFO case file"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 68,
+    "title": "DOW-UAP-D6, Mission Report, Arabian Gulf, 2020",
+    "ocr_path": "./ocr_text/068-dow-uap-d6-mission-report-arabian-gulf-2020.ocr.txt",
+    "ocr_chars": 193,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 69,
+    "title": "DOW-UAP-D60, Mission Report, Arabian Gulf, August 2020",
+    "ocr_path": "./ocr_text/069-dow-uap-d60-mission-report-arabian-gulf-august-2020.ocr.txt",
+    "ocr_chars": 6788,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 72,
+    "title": "DOW-UAP-D63, Mission Report, Strait of Hormuz, October 2020",
+    "ocr_path": "./ocr_text/072-dow-uap-d63-mission-report-strait-of-hormuz-october-2020.ocr.txt",
+    "ocr_chars": 9133,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 74,
+    "title": "DOW-UAP-D65, Mission Report, Arabian Gulf, July 2020",
+    "ocr_path": "./ocr_text/074-dow-uap-d65-mission-report-arabian-gulf-july-2020.ocr.txt",
+    "ocr_chars": 8363,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 78,
+    "title": "DOW-UAP-D8, Mission Report, Djibouti, 2025",
+    "ocr_path": "./ocr_text/078-dow-uap-d8-mission-report-djibouti-2025.ocr.txt",
+    "ocr_chars": 469,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 115,
+    "title": "FBI Photo B1",
+    "ocr_path": "./ocr_text/115-fbi-photo-b1.ocr.txt",
+    "ocr_chars": 377,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 116,
+    "title": "FBI Photo B10",
+    "ocr_path": "./ocr_text/116-fbi-photo-b10.ocr.txt",
+    "ocr_chars": 74,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 117,
+    "title": "FBI Photo B11",
+    "ocr_path": "./ocr_text/117-fbi-photo-b11.ocr.txt",
+    "ocr_chars": 93,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 118,
+    "title": "FBI Photo B12",
+    "ocr_path": "./ocr_text/118-fbi-photo-b12.ocr.txt",
+    "ocr_chars": 73,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 119,
+    "title": "FBI Photo B13",
+    "ocr_path": "./ocr_text/119-fbi-photo-b13.ocr.txt",
+    "ocr_chars": 0,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 120,
+    "title": "FBI Photo B14",
+    "ocr_path": "./ocr_text/120-fbi-photo-b14.ocr.txt",
+    "ocr_chars": 20,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 121,
+    "title": "FBI Photo B15",
+    "ocr_path": "./ocr_text/121-fbi-photo-b15.ocr.txt",
+    "ocr_chars": 0,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 122,
+    "title": "FBI Photo B16",
+    "ocr_path": "./ocr_text/122-fbi-photo-b16.ocr.txt",
+    "ocr_chars": 0,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 123,
+    "title": "FBI Photo B17",
+    "ocr_path": "./ocr_text/123-fbi-photo-b17.ocr.txt",
+    "ocr_chars": 0,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 124,
+    "title": "FBI Photo B18",
+    "ocr_path": "./ocr_text/124-fbi-photo-b18.ocr.txt",
+    "ocr_chars": 0,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 125,
+    "title": "FBI Photo B19",
+    "ocr_path": "./ocr_text/125-fbi-photo-b19.ocr.txt",
+    "ocr_chars": 0,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 126,
+    "title": "FBI Photo B2",
+    "ocr_path": "./ocr_text/126-fbi-photo-b2.ocr.txt",
+    "ocr_chars": 205,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 127,
+    "title": "FBI Photo B20",
+    "ocr_path": "./ocr_text/127-fbi-photo-b20.ocr.txt",
+    "ocr_chars": 3,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 128,
+    "title": "FBI Photo B21",
+    "ocr_path": "./ocr_text/128-fbi-photo-b21.ocr.txt",
+    "ocr_chars": 4,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 129,
+    "title": "FBI Photo B22",
+    "ocr_path": "./ocr_text/129-fbi-photo-b22.ocr.txt",
+    "ocr_chars": 0,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 130,
+    "title": "FBI Photo B23",
+    "ocr_path": "./ocr_text/130-fbi-photo-b23.ocr.txt",
+    "ocr_chars": 0,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 131,
+    "title": "FBI Photo B24",
+    "ocr_path": "./ocr_text/131-fbi-photo-b24.ocr.txt",
+    "ocr_chars": 0,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 132,
+    "title": "FBI Photo B3",
+    "ocr_path": "./ocr_text/132-fbi-photo-b3.ocr.txt",
+    "ocr_chars": 346,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 133,
+    "title": "FBI Photo B4",
+    "ocr_path": "./ocr_text/133-fbi-photo-b4.ocr.txt",
+    "ocr_chars": 49,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 134,
+    "title": "FBI Photo B5",
+    "ocr_path": "./ocr_text/134-fbi-photo-b5.ocr.txt",
+    "ocr_chars": 24,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 135,
+    "title": "FBI Photo B6",
+    "ocr_path": "./ocr_text/135-fbi-photo-b6.ocr.txt",
+    "ocr_chars": 2,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 136,
+    "title": "FBI Photo B7",
+    "ocr_path": "./ocr_text/136-fbi-photo-b7.ocr.txt",
+    "ocr_chars": 4,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 137,
+    "title": "FBI Photo B8",
+    "ocr_path": "./ocr_text/137-fbi-photo-b8.ocr.txt",
+    "ocr_chars": 278,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 138,
+    "title": "FBI Photo B9",
+    "ocr_path": "./ocr_text/138-fbi-photo-b9.ocr.txt",
+    "ocr_chars": 198,
+    "priority_score": 2,
+    "priority_reasons": [
+      "standardized operational reporting form"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 17,
+    "title": "18_100754_ General 1946-7_Vol_2",
+    "ocr_path": "./ocr_text/017-18_100754_-general-1946-7_vol_2.ocr.txt",
+    "ocr_chars": 33316,
+    "priority_score": 0,
+    "priority_reasons": [
+      "generic early archive volume; not priority by itself"
+    ],
+    "mode": "all"
+  },
+  {
+    "record_index": 18,
+    "title": "18_6369445_General_1948_Vol_1",
+    "ocr_path": "./ocr_text/018-18_6369445_general_1948_vol_1.ocr.txt",
+    "ocr_chars": 27702,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 19,
+    "title": "255_413270_UFO's_and_Defense_What_Should_we_Prepare_For",
+    "ocr_path": "./ocr_text/019-255_413270_ufo-s_and_defense_what_should_we_prepare_for.ocr.txt",
+    "ocr_chars": 310707,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 20,
+    "title": "NASA-UAP-D3, Gemini 7 Transcript, 1965",
+    "ocr_path": "./ocr_text/020-nasa-uap-d3-gemini-7-transcript-1965.ocr.txt",
+    "ocr_chars": 2753,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 23,
+    "title": "341_110448_Records_Relating_to_the_Collection_and_Dissemination_of_Intelligence_1948-1955-TS_CONT_No.2_2-5300-2-5399",
+    "ocr_path": "./ocr_text/023-341_110448_records_relating_to_the_collection_and_dissemination_of_intelligence_1948-1955-ts_cont_no.2_2-5300-2-5399.ocr.txt",
+    "ocr_chars": 4439,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 24,
+    "title": "341_110677_Numerical_File,_5-2500",
+    "ocr_path": "./ocr_text/024-341_110677_numerical_file-_5-2500.ocr.txt",
+    "ocr_chars": 64687,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 26,
+    "title": "38_143685_box_Incident_Summaries_101-172",
+    "ocr_path": "./ocr_text/026-38_143685_box_incident_summaries_101-172.ocr.txt",
+    "ocr_chars": 190422,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 27,
+    "title": "38_143685_box_Incident_Summaries_173-233",
+    "ocr_path": "./ocr_text/027-38_143685_box_incident_summaries_173-233.ocr.txt",
+    "ocr_chars": 151021,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 28,
+    "title": "38_143685_box7_Incident_Summaries_1-100",
+    "ocr_path": "./ocr_text/028-38_143685_box7_incident_summaries_1-100.ocr.txt",
+    "ocr_chars": 191582,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 30,
+    "title": "59_64634_711.5612[7-2852",
+    "ocr_path": "./ocr_text/030-59_64634_711.5612-7-2852.ocr.txt",
+    "ocr_chars": 12494,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 31,
+    "title": "65_HS1-101634279_100-DE-18221_Serial_844",
+    "ocr_path": "./ocr_text/031-65_hs1-101634279_100-de-18221_serial_844.ocr.txt",
+    "ocr_chars": 1521,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 141,
+    "title": "NASA-UAP-D4, Apollo 11 Technical Crew Debriefing, 1969",
+    "ocr_path": "./ocr_text/141-nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.ocr.txt",
+    "ocr_chars": 10579,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 143,
+    "title": "NASA-UAP-D6, Apollo 17 Technical Crew Debriefing, 1973",
+    "ocr_path": "./ocr_text/143-nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.ocr.txt",
+    "ocr_chars": 1892,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  },
+  {
+    "record_index": 144,
+    "title": "NASA-UAP-D7, Skylab Techincal Crew Debriefing 1973",
+    "ocr_path": "./ocr_text/144-nasa-uap-d7-skylab-techincal-crew-debriefing-1973.ocr.txt",
+    "ocr_chars": 11478,
+    "priority_score": 0,
+    "priority_reasons": [],
+    "mode": "all"
+  }
+]

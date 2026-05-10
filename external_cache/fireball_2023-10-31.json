@@ -1,0 +1,31 @@
+{
+  "signature": {
+    "version": "1.2",
+    "source": "NASA/JPL Fireball Data API"
+  },
+  "count": "1",
+  "fields": [
+    "date",
+    "energy",
+    "impact-e",
+    "lat",
+    "lat-dir",
+    "lon",
+    "lon-dir",
+    "alt",
+    "vel"
+  ],
+  "data": [
+    [
+      "2023-10-30 07:22:55",
+      "2.61",
+      "0.092",
+      "42.9",
+      "S",
+      "44.7",
+      "W",
+      "33.8",
+      "17.6"
+    ]
+  ]
+}

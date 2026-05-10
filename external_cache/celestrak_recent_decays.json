@@ -1,0 +1,4 @@
+{
+  "fetch_error": "Expecting value: line 1 column 1 (char 0)",
+  "url": "https://celestrak.org/satcat/decayed-with-last.php?FORMAT=json"
+}

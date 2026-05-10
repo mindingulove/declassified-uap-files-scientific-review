@@ -1,0 +1,37 @@
+{
+  "apiversion": "4.0.1",
+  "day": 29,
+  "month": 5,
+  "numphases": 4,
+  "phasedata": [
+    {
+      "day": 30,
+      "month": 5,
+      "phase": "New Moon",
+      "time": "11:30",
+      "year": 2022
+    },
+    {
+      "day": 7,
+      "month": 6,
+      "phase": "First Quarter",
+      "time": "14:48",
+      "year": 2022
+    },
+    {
+      "day": 14,
+      "month": 6,
+      "phase": "Full Moon",
+      "time": "11:52",
+      "year": 2022
+    },
+    {
+      "day": 21,
+      "month": 6,
+      "phase": "Last Quarter",
+      "time": "03:11",
+      "year": 2022
+    }
+  ],
+  "year": 2022
+}

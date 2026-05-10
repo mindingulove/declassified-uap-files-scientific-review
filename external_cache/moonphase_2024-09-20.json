@@ -1,0 +1,37 @@
+{
+  "apiversion": "4.0.1",
+  "day": 20,
+  "month": 9,
+  "numphases": 4,
+  "phasedata": [
+    {
+      "day": 24,
+      "month": 9,
+      "phase": "Last Quarter",
+      "time": "18:50",
+      "year": 2024
+    },
+    {
+      "day": 2,
+      "month": 10,
+      "phase": "New Moon",
+      "time": "18:49",
+      "year": 2024
+    },
+    {
+      "day": 10,
+      "month": 10,
+      "phase": "First Quarter",
+      "time": "18:55",
+      "year": 2024
+    },
+    {
+      "day": 17,
+      "month": 10,
+      "phase": "Full Moon",
+      "time": "11:26",
+      "year": 2024
+    }
+  ],
+  "year": 2024
+}

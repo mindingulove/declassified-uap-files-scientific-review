@@ -1,0 +1,4 @@
+{
+  "fetch_error": "HTTP Error 429: Too Many Requests",
+  "url": "https://ll.thespacedevs.com/2.3.0/launches/?window_start__gte=2020-08-26T00%3A00%3A00Z&window_start__lte=2020-08-29T00%3A00%3A00Z&limit=20"
+}

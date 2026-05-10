@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UAP Scientific Record Explorer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    body { background:#f1f3f5; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; overflow-x: hidden; }
+    .sidebar { height: 85vh; overflow-y: auto; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; }
+    .case-item { cursor: pointer; padding: 12px; border-bottom: 1px solid #eee; transition: all 0.2s; position: relative; }
+    .case-item:hover { background: #f8f9fa; }
+    .case-item.active { background: #e7f5ff; border-left: 5px solid #228be6; }
+    .card-forensic { border-top: 4px solid #228be6; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+    .meta-label { font-weight: 700; color: #868e96; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.5px; }
+    .quote-box { font-style: italic; color: #495057; background: #f8f9fa; border-left: 3px solid #dee2e6; padding: 10px; margin: 10px 0; font-size: 0.9rem; }
+    .entity-tag { font-size: 0.7rem; background: #e9ecef; color: #495057; padding: 2px 8px; border-radius: 12px; margin: 2px; display: inline-block; }
+    .audit-item { font-size: 0.8rem; display: flex; justify-content: space-between; margin-bottom: 4px; }
+    .audit-done { color: #2f9e44; font-weight: bold; }
+    .audit-todo { color: #adb5bd; }
+    .metric { font-variant-numeric: tabular-nums; font-family: "SFMono-Regular", Consolas, monospace; }
+    .trait-badge { font-size: 0.65rem; margin-right: 4px; margin-bottom: 4px; display: inline-block; padding: 1px 6px; background: #e9ecef; border-radius: 10px; color: #495057; }
+    .id-pill { font-size: 0.65rem; background: #343a40; color: #fff; padding: 2px 6px; border-radius: 4px; font-weight: bold; min-width: 28px; text-align: center; }
+    .hyp-filter-panel { display: none; background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 10px; margin-bottom: 10px; }
+    .hyp-tag { font-size: 0.65rem; cursor: pointer; border: 1px solid #dee2e6; padding: 2px 8px; border-radius: 12px; margin: 2px; display: inline-block; transition: all 0.2s; background: #fff; }
+    .hyp-tag.active { background: #343a40; color: #fff; border-color: #343a40; }
+    .toggle-pill { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s; background: #343a40; color: #fff; position: absolute; right: -16px; top: 15px; z-index: 100; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    .toggle-pill:hover { transform: scale(1.1); background: #228be6; }
+    .filter-btn .bi-x { display: none; margin-left: 3px; font-weight: bold; }
+    .filter-btn.active .bi-x { display: inline-block; }
+    .scenarios-wrap { max-height: 35vh; overflow-y: auto; border: 1px solid #eee; border-radius: 4px; }
+    
+    .modal-body { padding: 0 !important; background: #000; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+    .modal-fullscreen .modal-body { height: calc(100vh - 44px); }
+    #pdfViewer { width: 100%; height: 100%; border: none; background: #525659; }
+    #vidPlayer { width: 100%; height: 100%; object-fit: contain; }
+    #imgModal .modal-body { height: 80vh; background: #000; }
+    #imgViewer { max-width: 100%; max-height: 100%; object-fit: contain; }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark shadow-sm py-2">
+  <div class="container-fluid"><span class="navbar-brand fw-bold">UAP Scientific Record Explorer <small class="text-muted fw-normal ms-2">v3.1 Stable Master</small></span></div>
+</nav>
+
+<main class="container-fluid py-4">
+  <div class="row g-4">
+    <div class="col-md-4 col-lg-3">
+      <div class="card border-0 shadow-sm mb-3 position-relative">
+        <div class="toggle-pill" id="btnToggleHypPanel" title="Filters"><i class="bi bi-funnel-fill"></i></div>
+        <div class="card-body p-2">
+          <div class="input-group input-group-sm mb-2">
+            <span class="input-group-text bg-white border-end-0"><i class="bi bi-search"></i></span>
+            <input type="text" id="globalSearch" class="form-control border-start-0" placeholder="Search registry...">
+          </div>
+          <div class="d-flex flex-wrap gap-1 mb-2">
+            <button class="filter-btn btn btn-xs btn-outline-secondary py-0 px-2 small active btn-secondary" id="btnFilterAll" onclick="filterType('ALL')" style="font-size:0.65rem">All</button>
+            <button class="filter-btn btn btn-xs btn-outline-danger py-0 px-2 small" id="btnFilterVid" onclick="filterType('VID')" style="font-size:0.65rem">Videos<i class="bi bi-x"></i></button>
+            <button class="filter-btn btn btn-xs btn-outline-primary py-0 px-2 small" id="btnFilterPdf" onclick="filterType('PDF')" style="font-size:0.65rem">PDFs<i class="bi bi-x"></i></button>
+            <button class="filter-btn btn btn-xs btn-outline-success py-0 px-2 small" id="btnFilterImg" onclick="filterType('IMG')" style="font-size:0.65rem">Images<i class="bi bi-x"></i></button>
+            <button class="filter-btn btn btn-xs btn-outline-warning py-0 px-2 small" id="btnFilterAudio" onclick="filterType('AUDIO')" style="font-size:0.65rem">Audio<i class="bi bi-x"></i></button>
+          </div>
+          <div id="hypFilterPanel" class="hyp-filter-panel shadow-sm"><div id="hypTagsContainer"></div></div>
+        </div>
+      </div>
+      <div id="caseList" class="sidebar shadow-sm"></div>
+    </div>
+
+    <div class="col-md-8 col-lg-9">
+      <div id="welcomeScreen" class="text-center py-5 bg-white border rounded shadow-sm"><h3 class="text-muted">Forensic Repository</h3><p class="text-secondary">Explore 161 multi-layered forensic intelligence records.</p></div>
+      <div id="caseDetail" style="display:none;">
+        <div class="card card-forensic mb-4 border-0 shadow-sm">
+          <div class="card-body d-flex justify-content-between align-items-start">
+            <div><span id="headerType" class="badge mb-2"></span><h3 id="headerTitle" class="fw-bold"></h3><div id="headerMeta" class="d-flex flex-wrap gap-3 small text-secondary mt-1"></div></div>
+            <div id="actionArea"></div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="card border-0 shadow-sm mb-3"><div class="card-body"><h6 class="meta-label mb-3 text-danger">Audit Status</h6><div id="auditStatus"></div></div></div>
+            <div class="card mb-3 border-0 shadow-sm"><div class="card-body"><h6 class="meta-label mb-3 text-primary">Bayesian Probabilities</h6><div id="bayesianScores"></div></div></div>
+            <div class="card mb-3 border-0 shadow-sm"><div class="card-body"><h6 class="meta-label mb-3 text-info">Corroboration</h6><div id="corroborationMetrics"></div></div></div>
+            <div class="card border-0 shadow-sm mb-3"><div class="card-body"><h6 class="meta-label mb-2">Limitations</h6><div id="caseLimitations" class="small text-muted italic" style="font-size: 0.75rem;"></div></div></div>
+          </div>
+          <div class="col-lg-8">
+            <ul class="nav nav-tabs" id="detailTabs" role="tablist" style="margin-bottom: 0 !important;">
+              <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-summary" type="button">Summary</button></li>
+              <li class="nav-item" id="nav-kinematics"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-kinematics" type="button">Forensics</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-witness" type="button">Witness Matrix</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-entities" type="button">Entities</button></li>
+              <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-environment" type="button">Environment</button></li>
+            </ul>
+            <div class="tab-content bg-white p-3 border border-top-0 rounded-bottom shadow-sm">
+              <div class="tab-pane fade show active" id="tab-summary">
+                <p id="descText" class="small text-dark mb-2" style="white-space: pre-wrap; line-height: 1.5;"></p>
+                <div class="row g-3 mb-4">
+                  <div class="col-md-6"><h6 class="meta-label">Priority Score</h6><div id="priorityScore" class="h4 fw-bold text-primary mb-1"></div><div id="priorityReasons" class="small text-secondary"></div></div>
+                  <div class="col-md-6"><h6 class="meta-label">Scientific Rationale</h6><div id="classRationale" class="small text-dark p-2 bg-light rounded border-start border-3 border-warning"></div></div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tab-kinematics"><div id="kinematicsArea"></div><div id="missionArea" class="mt-4"></div></div>
+              <div class="tab-pane fade" id="tab-witness"><div id="witnessMatrixList"></div></div>
+              <div class="tab-pane fade" id="tab-entities"><div id="nlpContainer" class="mb-4"></div><div id="objectAttributes" class="small p-2 bg-light rounded"></div></div>
+              <div class="tab-pane fade" id="tab-environment"><div id="envContent"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Modals -->
+<div class="modal fade" id="frameModal" tabindex="-1"><div class="modal-dialog modal-fullscreen"><div class="modal-content bg-dark border-0">
+  <div class="modal-header py-2 bg-dark text-white border-bottom border-secondary d-flex justify-content-between align-items-center"><h6 class="modal-title text-truncate" id="vidMeta"></h6><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+  <div class="modal-body"><video id="vidPlayer" src="" controls></video></div>
+</div></div></div>
+
+<div class="modal fade" id="pdfModal" tabindex="-1"><div class="modal-dialog modal-fullscreen"><div class="modal-content bg-dark border-0">
+  <div class="modal-header py-2 bg-dark text-white border-bottom border-secondary d-flex justify-content-between align-items-center">
+    <h6 class="modal-title text-truncate" id="pdfModalTitle" style="max-width: 50%;"></h6>
+    <div class="d-flex align-items-center gap-2">
+      <select id="pdfZoomSelect" class="form-select form-select-sm py-0 px-2" style="width: auto; font-size: 0.7rem; background-color: #495057; color: white; border: 1px solid #6c757d;">
+        <option value="FitW" selected>Fit Width</option>
+        <option value="FitP">Fit Page</option>
+        <option value="100">100%</option>
+        <option value="150">150%</option>
+        <option value="200">200%</option>
+        <option value="300">300%</option>
+        <option value="400">400%</option>
+        <option value="500">500%</option>
+      </select>
+      <a id="pdfExternalLink" href="#" target="_blank" class="btn btn-sm btn-outline-info py-0 px-2" style="font-size: 0.7rem;">External</a>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+    </div>
+  </div>
+  <div class="modal-body"><iframe id="pdfViewer" src="about:blank"></iframe></div>
+</div></div></div>
+
+<div class="modal fade" id="imgModal" tabindex="-1"><div class="modal-dialog modal-xl modal-dialog-centered" style="max-width: 80%;"><div class="modal-content bg-dark border-0 shadow-lg">
+  <div class="modal-header py-2 bg-dark text-white border-bottom border-secondary d-flex justify-content-between align-items-center"><h6 class="modal-title text-truncate" id="imgModalTitle"></h6><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+  <div class="modal-body" style="height: 80vh;"><img id="imgViewer" src="about:blank" style="width: 100%; height: 100%; object-fit: contain;"></div>
+</div></div></div>
+
+<script src="data.js?v=laplacian-image-forensics-20260510"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const D = window.UAP_DATA; if (!D || !D.records) return;
+  const fmt = (v, d=2) => (v === null || v === undefined) ? 'n/a' : Number(v).toFixed(d);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  
+  function getVisualType(c) {
+    if ((c.title || '').toLowerCase().includes('audio')) return 'AUDIO';
+    return c.asset_type;
+  }
+
+  function getCleanTitle(c) {
+    let r = c.title || ''; if (r.toLowerCase().includes('fbi photo')) return r;
+    let cl = r.replace(/^([0-9]+_|HS1-|DOW-UAP-|65_)+/i, '').replace(/_/g, ' ').trim();
+    const isT = /^[A-Z0-9.\\-\\s]+$/i.test(cl) && cl.split(/[\\s\\-]/).length < 3;
+    if (!cl || cl.toLowerCase() === 'investigation' || isT) {
+       const a = c.agency || '', l = c.incident_location || '', d = c.incident_date || '';
+       if (l && d) return (a ? a + ' ' : '') + 'Record: ' + l + ' (' + d + ')';
+       if (l) return (a ? a + ' ' : '') + 'Incident in ' + l;
+       return (a ? a + ' ' : '') + 'Forensic Record #' + c.case_id;
+    }
+    return cl;
+  }
+
+  let currentFilter = 'ALL', currentHypFilter = null;
+  const searchInput = document.getElementById('globalSearch'), caseList = document.getElementById('caseList');
+
+  window.filterType = function(type) {
+    if (currentFilter === type && type !== 'ALL') type = 'ALL';
+    currentFilter = type;
+    document.querySelectorAll('.filter-btn').forEach(b => {
+      b.classList.remove('active', 'btn-secondary', 'btn-danger', 'btn-primary', 'btn-success', 'btn-warning');
+      b.classList.add('btn-outline-secondary');
+    });
+    const idSfx = type === 'ALL' ? 'All' : (type === 'VID' ? 'Vid' : (type === 'PDF' ? 'Pdf' : (type === 'IMG' ? 'Img' : 'Audio')));
+    const btn = document.getElementById('btnFilter' + idSfx);
+    if (btn) {
+      btn.classList.remove('btn-outline-secondary');
+      const colors = {'VID':'btn-danger', 'PDF':'btn-primary', 'IMG':'btn-success', 'AUDIO':'btn-warning', 'ALL':'btn-secondary'};
+      btn.classList.add('active', colors[type] || 'btn-secondary');
+    }
+    renderList(searchInput.value);
+  };
+
+  function setupHypFilters() {
+    const cont = document.getElementById('hypTagsContainer');
+    const hyps = [...new Set(Object.values(D.forensics).flatMap(f => (f.bayesian || []).map(b => b.hypothesis)))];
+    cont.innerHTML = '';
+    hyps.sort().forEach(h => {
+      const s = document.createElement('span'); s.className = 'hyp-tag'; s.textContent = h.toLowerCase().replace(/_/g, ' ');
+      s.onclick = () => {
+        if (currentHypFilter === h) { currentHypFilter = null; s.classList.remove('active'); }
+        else { document.querySelectorAll('.hyp-tag').forEach(t => t.classList.remove('active')); currentHypFilter = h; s.classList.add('active'); }
+        renderList(searchInput.value);
+      };
+      cont.appendChild(s);
+    });
+    document.getElementById('btnToggleHypPanel').onclick = () => {
+      const p = document.getElementById('hypFilterPanel'); p.style.display = p.style.display === 'block' ? 'none' : 'block';
+    };
+  }
+
+  function renderList(search = '') {
+    caseList.innerHTML = '';
+    const filtered = D.records.filter(c => {
+      const t = search.toLowerCase();
+      const cT = getCleanTitle(c).toLowerCase(), rT = (c.title || '').toLowerCase();
+      const tM = cT.includes(t) || rT.includes(t);
+      const lM = (c.incident_location || '').toLowerCase().includes(t);
+      const idM = String(c.case_id).includes(t);
+      const f = (D.forensics && D.forensics[c.case_id]) ? D.forensics[c.case_id] : {};
+      const bayes = f.bayesian || [];
+      const bH = bayes.length > 0 ? bayes.reduce((p, k) => (p.normalized_probability > k.normalized_probability) ? p : k) : null;
+      const hM = !currentHypFilter || (bH && bH.hypothesis === currentHypFilter);
+      const vType = getVisualType(c);
+      let tyM = (currentFilter === 'ALL' || vType === currentFilter);
+      return (tM || lM || idM) && tyM && hM;
+    });
+
+    filtered.forEach(c => {
+      const f = (D.forensics && D.forensics[c.case_id]) ? D.forensics[c.case_id] : {};
+      const aData = f.scientific_completion_audit || {};
+      const bayes = f.bayesian || [];
+      let d = 0, tot = 5;
+      if (aData.database_complete) d++; if (aData.ocr_complete) d++; if (aData.witness_matrix_complete) d++; if (aData.environmental_complete) d++; if (aData.classification_final) d++;
+      const isA = (c.title || '').toLowerCase().includes('audio');
+      if (c.asset_type === 'VID' && !isA) { tot = 6; if (aData.video_analysis_complete) d++; }
+      const col = (d >= tot) ? '#2f9e44' : (d > 0) ? '#fab005' : '#adb5bd';
+      let bH = bayes.length > 0 ? bayes.reduce((p, k) => (p.normalized_probability > k.normalized_probability) ? p : k) : null;
+      let pUI = '';
+      if (bH && bH.normalized_probability > 0.05) {
+        const cL = bH.normalized_probability > 0.7 ? 'bg-success' : bH.normalized_probability > 0.4 ? 'bg-warning text-dark' : 'bg-secondary';
+        pUI = '<span class="badge ' + cL + '" style="font-size: 0.45rem; padding: 2px 8px; border-radius: 4px; display: inline-block;">' + (bH.normalized_probability*100).toFixed(0) + '% ' + bH.hypothesis.toLowerCase().replace(/_/g, ' ') + '</span>';
+      }
+      const vType = getVisualType(c);
+      const bCol = (vType === 'VID' ? 'bg-danger' : vType === 'PDF' ? 'bg-primary' : vType === 'IMG' ? 'bg-success' : 'bg-warning text-dark');
+      const div = document.createElement('div'); div.className = 'case-item d-flex align-items-start gap-2';
+      div.innerHTML = '<div style="width: 8px; height: 8px; border-radius: 50%; background: ' + col + '; margin-top: 6px; flex-shrink: 0;"></div>' +
+          '<div class="flex-grow-1 overflow-hidden">' +
+            '<div class="d-flex justify-content-between align-items-start mb-1">' +
+              '<div class="d-flex align-items-center gap-1 overflow-hidden"><span class="id-pill">' + c.case_id + '</span><div class="fw-bold small text-truncate">' + getCleanTitle(c) + '</div></div>' +
+              '<span class="badge ' + bCol + '" style="font-size: 0.45rem">' + vType + '</span>' +
+            '</div>' +
+            '<div class="d-flex justify-content-between align-items-center flex-wrap gap-2">' +
+              '<div class="small text-muted" style="font-size:0.6rem;">' + (c.agency || 'UNK') + ' &middot; ' + (c.incident_date || 'No Date') + '</div>' + pUI +
+            '</div></div>';
+      div.onclick = () => showCase(c.case_id, div);
+      caseList.appendChild(div);
+    });
+  }
+
+  function showCase(id, el) {
+    document.querySelectorAll('.case-item').forEach(i => i.classList.remove('active'));
+    if (el) el.classList.add('active');
+    const c = D.records.find(x => x.case_id === id);
+    const f = (D.forensics && D.forensics[id]) ? D.forensics[id] : {};
+    const assets = f.assets || [];
+    const primaryAsset = assets.find(a => a.asset_type === c.asset_type) || assets[0] || {};
+    document.getElementById('welcomeScreen').style.display = 'none';
+    document.getElementById('caseDetail').style.display = 'block';
+    document.getElementById('headerTitle').textContent = getCleanTitle(c);
+    document.getElementById('headerMeta').innerHTML = '<span>Case ID: ' + c.case_id + '</span> <span>Agency: ' + (c.agency || 'N/A') + '</span> <span>Loc: ' + (c.incident_location || 'N/A') + '</span> <span class="badge bg-info">' + (c.classification || 'unreviewed') + '</span>';
+    
+    const vType = getVisualType(c);
+    const hT = document.getElementById('headerType');
+    hT.textContent = vType;
+    hT.className = 'badge mb-2 ' + (vType === 'VID' ? 'bg-danger' : vType === 'PDF' ? 'bg-primary' : vType === 'IMG' ? 'bg-success' : 'bg-warning text-dark');
+
+    const actionArea = document.getElementById('actionArea'); actionArea.innerHTML = '';
+    const isA = (vType === 'AUDIO');
+    const sourceAsset = assets.find(a => a.original_url) || {};
+    const addSourceButton = () => {
+      if (!sourceAsset.original_url) return;
+      const srcBtn = document.createElement('a');
+      srcBtn.className = 'btn btn-outline-secondary btn-sm shadow-sm ms-2';
+      srcBtn.href = sourceAsset.original_url;
+      srcBtn.target = '_blank';
+      srcBtn.rel = 'noopener';
+      srcBtn.innerHTML = '<i class="bi bi-box-arrow-up-right"></i> Source';
+      actionArea.appendChild(srcBtn);
+    };
+    if (c.asset_type === 'VID' && c.local_path) {
+      const btn = document.createElement('button'); btn.className = 'btn btn-danger btn-sm shadow-sm'; btn.innerHTML = '<i class="bi bi-play-fill"></i> ' + (isA ? 'Play Audio' : 'Analyze Video');
+      btn.onclick = () => playVideo(c.local_path, c.title); actionArea.appendChild(btn);
+      document.getElementById('nav-kinematics').style.display = isA ? 'none' : 'block';
+    } else if (c.asset_type === 'PDF' && c.pdf_path) {
+      const btn = document.createElement('button'); btn.className = 'btn btn-primary btn-sm shadow-sm'; btn.innerHTML = '<i class="bi bi-file-earmark-pdf"></i> View Document'; btn.onclick = () => openPdfModal(c.pdf_path, c.title, primaryAsset.original_url); actionArea.appendChild(btn);
+      document.getElementById('nav-kinematics').style.display = 'none';
+    } else if (c.asset_type === 'IMG') {
+      const imgPath = c.img_path || primaryAsset.local_path;
+      const btn = document.createElement('button'); btn.className = 'btn btn-success btn-sm shadow-sm'; btn.innerHTML = '<i class="bi bi-image"></i> View Image'; btn.onclick = () => openImgModal(c.img_path, c.title); actionArea.appendChild(btn);
+      btn.disabled = !imgPath;
+      if (imgPath) btn.onclick = () => openImgModal(imgPath, c.title);
+      document.getElementById('nav-kinematics').style.display = 'block';
+    }
+    addSourceButton();
+
+    const sourceRows = assets
+      .filter(a => a.original_url)
+      .map(a => '<div><span class="meta-label">' + esc(a.asset_type) + ' source:</span> <a href="' + esc(a.original_url) + '" target="_blank" rel="noopener">' + esc(a.filename || a.original_url) + '</a></div>')
+      .join('');
+    document.getElementById('descText').innerHTML = esc(c.description || 'No description.') + (sourceRows ? '<div class="mt-3 p-2 bg-light border rounded small">' + sourceRows + '</div>' : '');
+    const s = f.scores || {}; 
+    const pSc = document.getElementById('priorityScore'), pRe = document.getElementById('priorityReasons');
+    if (pSc) pSc.textContent = s.scientific_priority_score || '0.0';
+    if (pRe) { let r_j = []; try { r_j = typeof s.priority_reasons_json === 'string' ? JSON.parse(s.priority_reasons_json) : (s.priority_reasons_json || []); } catch(e) {} pRe.innerHTML = r_j.map(r => '&bull; ' + r).join('<br>'); }
+    const ratData = f.classification_rationale || f.rationale || {};
+    const cRat = document.getElementById('classRationale');
+    if (cRat) cRat.innerHTML = ratData.rationale ? '<strong>Rationale:</strong> ' + ratData.rationale : 'Pending review.';
+    
+    let lim = []; try { lim = typeof s.limitations_json === 'string' ? JSON.parse(s.limitations_json) : (s.limitations_json || []); } catch(e) {}
+    const cLim = document.getElementById('caseLimitations');
+    if (cLim) cLim.innerHTML = lim.length ? lim.map(l => '<div class="mb-1">&bull; ' + l + '</div>').join('') : 'No technical limitations noted.';
+
+    const kArea = document.getElementById('kinematicsArea');
+    if (c.asset_type === 'VID' && !isA) {
+      const rows = (D.scenarios || []).filter(s => s.case_id === id);
+      kArea.innerHTML = '<h6 class="meta-label mb-2">Kinematic Scenarios</h6><div class="scenarios-wrap"><table class="table table-sm small align-middle"><thead><tr><th>FOV</th><th>Range</th><th>Angular</th><th>Plaus.</th></tr></thead><tbody>' +
+        rows.map(s => '<tr><td>' + s.fov_label + '</td><td>' + s.range_class + '</td><td>' + fmt(s.angular_speed_deg_s,4) + '</td><td>' + s.plausibility + '</td></tr>').join('') + '</tbody></table></div>';
+    } else if (c.asset_type === 'IMG' && f.image) {
+      let im = {};
+      try { im = typeof f.image.pixel_metrics_json === 'string' ? JSON.parse(f.image.pixel_metrics_json) : (f.image.pixel_metrics_json || {}); } catch(e) {}
+      let flags = [];
+      try { flags = typeof f.image.artifact_flags_json === 'string' ? JSON.parse(f.image.artifact_flags_json) : (f.image.artifact_flags_json || []); } catch(e) {}
+      kArea.innerHTML = '<h6 class="meta-label mb-2">Laplacian Image Analysis</h6>' +
+        '<div class="row g-2 small mb-3">' +
+          [['Laplacian variance', fmt(im.laplacian_variance,2)], ['Mean abs response', fmt(im.laplacian_mean_abs,2)], ['P95 abs response', fmt(im.laplacian_p95_abs,2)], ['High response ratio', fmt(im.laplacian_high_response_ratio,4)], ['Focus class', esc(im.laplacian_focus_class || 'n/a')], ['Edge density', fmt(im.edge_density,4)]].map(x => '<div class="col-md-4"><div class="p-2 border rounded bg-light"><span class="meta-label d-block">' + x[0] + '</span><span class="metric">' + x[1] + '</span></div></div>').join('') +
+        '</div>' +
+        '<div class="small text-muted mb-2">' + esc(f.image.review_note || '') + '</div>' +
+        (flags.length ? '<div>' + flags.map(fl => '<span class="trait-badge">' + esc(fl.replace(/_/g, ' ')) + '</span>').join('') + '</div>' : '');
+    } else { kArea.innerHTML = '<div class="alert alert-light border small">No forensic metrics available for this record.</div>'; }
+    const mis = (D.mission_data && D.mission_data[String(id)]) ? D.mission_data[String(id)] : null;
+    const mArea = document.getElementById('missionArea');
+    if (mis) { mArea.innerHTML = '<h6 class="meta-label mb-2">Telemetry</h6><div class="row g-2">' + [['Alt', mis.platform_altitude_m ? mis.platform_altitude_m+'m' : 'UNK'],['Speed', mis.platform_speed_kmh ? mis.platform_speed_kmh+'km/h' : 'UNK']].map(x => '<div class="col-6"><div class="p-1 border rounded text-truncate"><small class="meta-label d-block" style="font-size:0.6rem">' + x[0] + '</small>' + x[1] + '</div></div>').join('') + '</div>'; } else { mArea.innerHTML = ''; }
+    const nlp = f.nlp || []; document.getElementById('nlpContainer').innerHTML = nlp.length ? nlp.map(n => '<span class="entity-tag">' + n.entity_text + ' <small class="text-muted">(' + n.entity_type + ')</small></span>').join('') : '<small class="text-muted">None.</small>';
+    document.getElementById('objectAttributes').innerHTML = '<div><span class="meta-label">Traits:</span> ' + (c.object_description || 'N/A') + '</div><div><span class="meta-label">Motion:</span> ' + (c.claimed_motion || 'N/A') + '</div>';
+    const env = (D.env_checks && D.env_checks[String(id)]) ? D.env_checks[String(id)] : [];
+    document.getElementById('envContent').innerHTML = env.length ? '<div class="list-group list-group-flush">' + env.map(e => '<div class="list-group-item small px-0"><div class="fw-bold text-uppercase" style="font-size:0.6rem">' + (e.check_type || '').replace(/_/g, ' ') + '</div><div class="text-secondary">' + (e.result_summary || '') + '</div></div>').join('') + '</div>' : '<small class="text-muted">No checks.</small>';
+    const bayes = f.bayesian || []; document.getElementById('bayesianScores').innerHTML = bayes.length ? bayes.sort((a,b)=>b.normalized_probability - a.normalized_probability).map(b => '<div class="mb-2"><div class="d-flex justify-content-between small fw-bold"><span>' + b.hypothesis + '</span><span>' + (b.normalized_probability*100).toFixed(1) + '%</span></div><div class="progress" style="height: 5px;"><div class="progress-bar bg-warning" style="width: ' + (b.normalized_probability*100) + '%"></div></div></div>').join('') : '<small class="text-muted">Pending.</small>';
+    
+    // Audit Status Fix
+    const aStat = f.scientific_completion_audit || {};
+    const checklist = [{key:'database_complete', label:'DB Integrity'},{key:'ocr_complete', label:'OCR processing'},{key:'witness_matrix_complete', label:'Witness matrix'},{key:'environmental_complete', label:'Environmental'},{key:'classification_final', label:'Review'}];
+    if (c.asset_type === 'VID' && !isA) checklist.splice(2,0,{key:'video_analysis_complete', label:'Kinematic track'});
+    document.getElementById('auditStatus').innerHTML = checklist.map(item => '<div class="audit-item"><span>' + item.label + '</span><span class="' + (aStat[item.key] ? 'audit-done' : 'audit-todo') + '">' + (aStat[item.key] ? '✓' : '•') + '</span></div>').join('');
+    
+    // Corroboration Fix
+    const corr = f.corroboration || [];
+    document.getElementById('corroborationMetrics').innerHTML = corr.length ? corr.map(m => '<div class="d-flex justify-content-between py-1 small border-bottom"><span>' + m.feature_key.replace(/_/g, ' ') + '</span><span class="fw-bold">' + m.claim_count + ' claims / ' + m.possible_independent_count + ' indep.</span></div>').join('') : '<small class="text-muted">No corroboration data.</small>';
+
+    const mtx = f.witness_matrix || []; document.getElementById('witnessMatrixList').innerHTML = mtx.length ? mtx.slice(0, 15).map(w => '<div class="card border-0 mb-3 bg-white shadow-sm p-2"><div class="d-flex justify-content-between mb-1"><span class="small fw-bold text-primary">' + (w.claim_type || '').replace(/_/g, ' ') + '</span><span class="text-muted" style="font-size:0.6rem">P.' + w.source_page + '</span></div><div class="quote-box small">"' + (w.source_quote || '') + '"</div><div class="small">' + (w.shape ? '<span class="trait-badge">' + w.shape + '</span>' : '') + (w.motion ? '<span class="trait-badge">' + w.motion + '</span>' : '') + '</div></div>').join('') : '<div class="text-muted small">No snippets.</div>';
+  }
+
+  let _currentPdfPath = '';
+  function openPdfModal(path, title, sourceUrl) {
+    const modal = new bootstrap.Modal(document.getElementById('pdfModal'));
+    const modalEl = document.getElementById('pdfModal');
+    const viewer = document.getElementById('pdfViewer');
+    const extLink = document.getElementById('pdfExternalLink');
+    const zoomSel = document.getElementById('pdfZoomSelect');
+    _currentPdfPath = '../' + path.slice(2);
+    document.getElementById('pdfModalTitle').textContent = title;
+    if (extLink) extLink.href = sourceUrl || _currentPdfPath;
+    if (zoomSel) zoomSel.value = 'FitW';
+    const applyZoom = () => {
+      const z = zoomSel ? zoomSel.value : 'FitW';
+      const suffix = (z === 'FitW')
+        ? '#view=FitH&toolbar=1&navpanes=0'
+        : (z === 'FitP')
+          ? '#view=Fit&toolbar=1&navpanes=0'
+          : '#zoom=' + z + '&toolbar=1&navpanes=0';
+      viewer.src = 'about:blank';
+      setTimeout(() => { viewer.src = _currentPdfPath + suffix; }, 10);
+    };
+    if (zoomSel) zoomSel.onchange = applyZoom;
+    modalEl.addEventListener('shown.bs.modal', applyZoom, {once: true});
+    modalEl.addEventListener('hidden.bs.modal', () => { viewer.src = 'about:blank'; }, {once: true});
+    modal.show();
+  }
+
+  function openImgModal(path, title) {
+    const modal = new bootstrap.Modal(document.getElementById('imgModal'));
+    const viewer = document.getElementById('imgViewer');
+    document.getElementById('imgModalTitle').textContent = title;
+    viewer.style.transform = 'scale(1)';
+    viewer.src = '../' + path.slice(2);
+    document.getElementById('imgModal').addEventListener('hidden.bs.modal', () => { viewer.src = 'about:blank'; }, {once: true});
+    modal.show();
+  }
+
+  function playVideo(path, title) {
+    const modal = new bootstrap.Modal(document.getElementById('frameModal'));
+    const player = document.getElementById('vidPlayer');
+    player.src = '../' + path.slice(2); document.getElementById('vidMeta').textContent = title; player.play();
+    document.getElementById('frameModal').addEventListener('hidden.bs.modal', () => { player.pause(); player.src = ''; }, {once: true});
+    modal.show();
+  }
+
+  searchInput.oninput = (e) => renderList(e.target.value);
+  setupHypFilters(); renderList();
+});
+</script>
+</body>
+</html>

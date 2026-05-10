@@ -1,0 +1,1 @@
+https://www.war.gov/DesktopModules/DVIDSVideoPlayer/Components/analyticsParamsForDVIDSAnalyticsAPI.js

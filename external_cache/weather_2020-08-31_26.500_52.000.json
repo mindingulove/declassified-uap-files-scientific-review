@@ -1,0 +1,49 @@
+{
+  "latitude": 26.537785,
+  "longitude": 51.99559,
+  "generationtime_ms": 1.2030601501464844,
+  "utc_offset_seconds": 0,
+  "timezone": "GMT",
+  "timezone_abbreviation": "GMT",
+  "elevation": 0.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "\u00b0C",
+    "temperature_2m_min": "\u00b0C",
+    "precipitation_sum": "mm",
+    "rain_sum": "mm",
+    "snowfall_sum": "cm",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2020-08-31"
+    ],
+    "temperature_2m_max": [
+      34.3
+    ],
+    "temperature_2m_min": [
+      32.8
+    ],
+    "precipitation_sum": [
+      0.0
+    ],
+    "rain_sum": [
+      0.0
+    ],
+    "snowfall_sum": [
+      0.0
+    ],
+    "wind_speed_10m_max": [
+      18.2
+    ],
+    "wind_gusts_10m_max": [
+      24.5
+    ],
+    "weather_code": [
+      0
+    ]
+  }
+}

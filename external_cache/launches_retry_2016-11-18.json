@@ -1,0 +1,969 @@
+{
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": "47f032b8-ce41-46b0-978a-454e50348341",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/47f032b8-ce41-46b0-978a-454e50348341/",
+      "name": "Ariane 5 ES | Galileo L8 (FOC FM07 & FM12-FM14)",
+      "response_mode": "normal",
+      "slug": "ariane-5-es-galileo-l8-foc-fm07-fm12-fm14",
+      "launch_designator": "2016-069",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "last_updated": "2024-04-28T05:39:14Z",
+      "net": "2016-11-17T13:06:48Z",
+      "net_precision": null,
+      "window_end": "2016-11-17T13:06:48Z",
+      "window_start": "2016-11-17T13:06:48Z",
+      "image": {
+        "id": 1687,
+        "name": "Ariane 5 ES launching a galileo mission",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520es_image_20190222031145.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193506.jpeg",
+        "credit": "ESA/CNES/Arianespace/Optique Video du CSG - Service Optique",
+        "license": {
+          "id": 2,
+          "name": "ESA Standard Licence",
+          "priority": 2,
+          "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
+        },
+        "single_use": true,
+        "variants": []
+      },
+      "infographic": null,
+      "probability": null,
+      "weather_concerns": null,
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "response_mode": "list",
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.3.0/agencies/115/",
+        "name": "Arianespace",
+        "abbrev": "ASA",
+        "type": {
+          "id": 3,
+          "name": "Commercial"
+        }
+      },
+      "rocket": {
+        "id": 1964,
+        "configuration": {
+          "response_mode": "list",
+          "id": 18,
+          "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/18/",
+          "name": "Ariane 5 ES",
+          "families": [
+            {
+              "response_mode": "list",
+              "id": 59,
+              "name": "Ariane"
+            },
+            {
+              "response_mode": "list",
+              "id": 61,
+              "name": "Ariane 5"
+            }
+          ],
+          "full_name": "Ariane 5 ES",
+          "variant": "ES"
+        }
+      },
+      "mission": {
+        "id": 278,
+        "name": "Galileo L8 (FOC FM07 & FM12-FM14)",
+        "type": "Communications",
+        "description": "The Galileo constellation is ESA's satellite navigation system and is expected to be completed by 2020. Galileo will provide Europe with an alternative to the American GPS and Russian GLONASS constellations, but will be interoperable with both systems.",
+        "image": null,
+        "orbit": {
+          "id": 12,
+          "name": "Medium Earth Orbit",
+          "abbrev": "MEO",
+          "celestial_body": {
+            "response_mode": "list",
+            "id": 1,
+            "name": "Earth"
+          }
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.3.0/pads/77/",
+        "active": false,
+        "agencies": [
+          {
+            "response_mode": "normal",
+            "id": 115,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/115/",
+            "name": "Arianespace",
+            "abbrev": "ASA",
+            "type": {
+              "id": 3,
+              "name": "Commercial"
+            },
+            "featured": true,
+            "country": [
+              {
+                "id": 1,
+                "name": "France",
+                "alpha_2_code": "FR",
+                "alpha_3_code": "FRA",
+                "nationality_name": "French",
+                "nationality_name_composed": "Franco"
+              }
+            ],
+            "description": "Arianespace SA is a multinational company founded in 1980 as the world's first commercial launch service provider. It undertakes the production, operation, and marketing of the Ariane programme. Their vehicles launch exclusively from French Guiana in South America.",
+            "administrator": "CEO: David Cavaillol\u00e8s",
+            "founding_year": 1980,
+            "launchers": "Ariane | Vega",
+            "spacecraft": "",
+            "parent": "ArianeGroup",
+            "image": {
+              "id": 2694,
+              "name": "Ariane 64 liftoff (LE-01)",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_20260213070745.jpg",
+              "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260213070746.jpeg",
+              "credit": "ESA/CNES/Arianespace/ArianeGroup/Optique video du CSG\u2013P. Piron",
+              "license": {
+                "id": 2,
+                "name": "ESA Standard Licence",
+                "priority": 2,
+                "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
+              },
+              "single_use": false,
+              "variants": []
+            },
+            "logo": {
+              "id": 108,
+              "name": "Arianespace blue logo",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/arianespace_logo_20210603173752.png",
+              "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184909.png",
+              "credit": "Arianespace",
+              "license": {
+                "id": 1,
+                "name": "Unknown",
+                "priority": 9,
+                "link": null
+              },
+              "single_use": true,
+              "variants": [
+                {
+                  "id": 11,
+                  "type": {
+                    "id": 1,
+                    "name": "transparent for light background"
+                  },
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/image_variants/arianespace_log_image_20250211184850.png"
+                },
+                {
+                  "id": 12,
+                  "type": {
+                    "id": 2,
+                    "name": "transparent for dark background"
+                  },
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/image_variants/arianespace_log_image_20250211184853.png"
+                }
+              ]
+            },
+            "social_logo": {
+              "id": 39,
+              "name": "Arianespace social logo",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/arianespace_nation_20230530190314.jpg",
+              "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184728.jpeg",
+              "credit": "Arianespace",
+              "license": {
+                "id": 1,
+                "name": "Unknown",
+                "priority": 9,
+                "link": null
+              },
+              "single_use": true,
+              "variants": []
+            }
+          }
+        ],
+        "name": "Ariane Launch Area 3",
+        "image": {
+          "id": 1979,
+          "name": "Ariane 5 ECA+ on ELA-3 by night (JWST)",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ela-3_image_20240310184138.jpeg",
+          "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ela-3_image_thumbnail_20240310184140.jpeg",
+          "credit": "NASA/Bill Ingalls",
+          "license": {
+            "id": 4,
+            "name": "NASA Image and Media Guidelines",
+            "priority": 0,
+            "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "single_use": true,
+          "variants": []
+        },
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": 5.239,
+        "longitude": -52.768,
+        "country": {
+          "id": 50,
+          "name": "French Guiana",
+          "alpha_2_code": "GF",
+          "alpha_3_code": "GUF",
+          "nationality_name": "French Guianan",
+          "nationality_name_composed": "Franco-Guiano"
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118,
+        "fastest_turnaround": "P17DT20H35M26S",
+        "location": {
+          "response_mode": "normal",
+          "id": 13,
+          "url": "https://ll.thespacedevs.com/2.3.0/locations/13/",
+          "name": "Guiana Space Centre, French Guiana",
+          "celestial_body": {
+            "response_mode": "normal",
+            "id": 1,
+            "name": "Earth",
+            "type": {
+              "id": 1,
+              "name": "Planet"
+            },
+            "diameter": 12742000.0,
+            "mass": 5.972168e+24,
+            "gravity": 9.80655,
+            "length_of_day": "1 00:00:00",
+            "atmosphere": true,
+            "image": {
+              "id": 2040,
+              "name": "Earth (Apollo 17)",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
+              "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
+              "credit": "NASA",
+              "license": {
+                "id": 4,
+                "name": "NASA Image and Media Guidelines",
+                "priority": 0,
+                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+              },
+              "single_use": true,
+              "variants": []
+            },
+            "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
+            "wiki_url": "https://en.wikipedia.org/wiki/Earth",
+            "total_attempted_launches": 7501,
+            "successful_launches": 6945,
+            "failed_launches": 556,
+            "total_attempted_landings": 1305,
+            "successful_landings": 1258,
+            "failed_landings": 47
+          },
+          "active": true,
+          "country": {
+            "id": 50,
+            "name": "French Guiana",
+            "alpha_2_code": "GF",
+            "alpha_3_code": "GUF",
+            "nationality_name": "French Guianan",
+            "nationality_name_composed": "Franco-Guiano"
+          },
+          "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+          "image": {
+            "id": 2203,
+            "name": "Vega & Ariane 5 pads at the Guiana Space Centre",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega_2526_aria_image_20240918154413.jpg",
+            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega_2526_aria_image_thumbnail_20240918154414.jpeg",
+            "credit": "ESA/S. Corvaja",
+            "license": {
+              "id": 2,
+              "name": "ESA Standard Licence",
+              "priority": 2,
+              "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
+            },
+            "single_use": true,
+            "variants": []
+          },
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+          "longitude": -52.6903,
+          "latitude": 5.169,
+          "timezone_name": "America/Cayenne",
+          "total_launch_count": 332,
+          "total_landing_count": 0
+        }
+      },
+      "webcast_live": false,
+      "program": [
+        {
+          "response_mode": "normal",
+          "id": 30,
+          "url": "https://ll.thespacedevs.com/2.3.0/programs/30/",
+          "name": "Galileo",
+          "image": {
+            "id": 1882,
+            "name": "[AUTO] Galileo - image",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/galileo_program_20231230110547.png",
+            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305194029.png",
+            "credit": null,
+            "license": {
+              "id": 1,
+              "name": "Unknown",
+              "priority": 9,
+              "link": null
+            },
+            "single_use": true,
+            "variants": []
+          },
+          "info_url": "https://www.gsc-europa.eu/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Galileo_(satellite_navigation)",
+          "description": "Galileo is a global navigation satellite system (GNSS) that went live in 2016, created by the European Union through the European Space Agency (ESA), operated by the European Union Agency for the Space Programme (EUSPA).",
+          "agencies": [
+            {
+              "response_mode": "list",
+              "id": 27,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/27/",
+              "name": "European Space Agency",
+              "abbrev": "ESA",
+              "type": {
+                "id": 2,
+                "name": "Multinational"
+              }
+            }
+          ],
+          "start_date": "2011-10-21T10:30:00Z",
+          "end_date": null,
+          "mission_patches": [],
+          "type": {
+            "id": 4,
+            "name": "Navigation Constellation"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 5600,
+      "location_launch_attempt_count": 264,
+      "pad_launch_attempt_count": 89,
+      "agency_launch_attempt_count": 249,
+      "orbital_launch_attempt_count_year": 71,
+      "location_launch_attempt_count_year": 9,
+      "pad_launch_attempt_count_year": 6,
+      "agency_launch_attempt_count_year": 9
+    },
+    {
+      "id": "165b2b3e-2822-482e-9f04-d9c92a4d09fe",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/165b2b3e-2822-482e-9f04-d9c92a4d09fe/",
+      "name": "Soyuz-FG | Soyuz MS-03",
+      "response_mode": "normal",
+      "slug": "soyuz-fg-soyuz-ms-03",
+      "launch_designator": "2016-070",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "last_updated": "2023-06-14T08:51:38Z",
+      "net": "2016-11-17T20:20:13Z",
+      "net_precision": null,
+      "window_end": "2016-11-17T20:20:13Z",
+      "window_start": "2016-11-17T20:20:13Z",
+      "image": {
+        "id": 1827,
+        "name": "[AUTO] Soyuz - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_image_20190717035537.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193856.jpeg",
+        "credit": null,
+        "license": {
+          "id": 1,
+          "name": "Unknown",
+          "priority": 9,
+          "link": null
+        },
+        "single_use": true,
+        "variants": []
+      },
+      "infographic": null,
+      "probability": null,
+      "weather_concerns": null,
+      "failreason": null,
+      "hashtag": null,
+      "launch_service_provider": {
+        "response_mode": "list",
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "abbrev": "RFSA",
+        "type": {
+          "id": 1,
+          "name": "Government"
+        }
+      },
+      "rocket": {
+        "id": 1965,
+        "configuration": {
+          "response_mode": "list",
+          "id": 34,
+          "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/34/",
+          "name": "Soyuz",
+          "families": [],
+          "full_name": "Soyuz FG",
+          "variant": "FG"
+        }
+      },
+      "mission": {
+        "id": 281,
+        "name": "Soyuz MS-03",
+        "type": "Human Exploration",
+        "description": "Soyuz MS-03 begins expedition 50 by carrying NASA astronaut Peggy Whitson, ESA astronaut Thomas Pesquet and Roscosmos cosmonaut Oleg Novitskiy to the International Space Station. After launching from the Baikonur Cosmodrome in Kazakhstan, they will rendezvous to the station where they will remain for their 6 month stay.",
+        "image": null,
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO",
+          "celestial_body": {
+            "response_mode": "list",
+            "id": 1,
+            "name": "Earth"
+          }
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.3.0/pads/32/",
+        "active": true,
+        "agencies": [],
+        "name": "1/5",
+        "image": null,
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": 45.92,
+        "longitude": 63.342,
+        "country": {
+          "id": 44,
+          "name": "Kazakhstan",
+          "alpha_2_code": "KZ",
+          "alpha_3_code": "KAZ",
+          "nationality_name": "Kazakh",
+          "nationality_name_composed": "Kazakhstani"
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487,
+        "fastest_turnaround": "PT23H32M33S",
+        "location": {
+          "response_mode": "normal",
+          "id": 15,
+          "url": "https://ll.thespacedevs.com/2.3.0/locations/15/",
+          "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+          "celestial_body": {
+            "response_mode": "normal",
+            "id": 1,
+            "name": "Earth",
+            "type": {
+              "id": 1,
+              "name": "Planet"
+            },
+            "diameter": 12742000.0,
+            "mass": 5.972168e+24,
+            "gravity": 9.80655,
+            "length_of_day": "1 00:00:00",
+            "atmosphere": true,
+            "image": {
+              "id": 2040,
+              "name": "Earth (Apollo 17)",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
+              "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
+              "credit": "NASA",
+              "license": {
+                "id": 4,
+                "name": "NASA Image and Media Guidelines",
+                "priority": 0,
+                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+              },
+              "single_use": true,
+              "variants": []
+            },
+            "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
+            "wiki_url": "https://en.wikipedia.org/wiki/Earth",
+            "total_attempted_launches": 7501,
+            "successful_launches": 6945,
+            "failed_launches": 556,
+            "total_attempted_landings": 1305,
+            "successful_landings": 1258,
+            "failed_landings": 47
+          },
+          "active": true,
+          "country": {
+            "id": 44,
+            "name": "Kazakhstan",
+            "alpha_2_code": "KZ",
+            "alpha_3_code": "KAZ",
+            "nationality_name": "Kazakh",
+            "nationality_name_composed": "Kazakhstani"
+          },
+          "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+          "image": {
+            "id": 2198,
+            "name": "Soyuz launch pad at the Baikonur Cosmodrome",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_launch_pa_image_20240918150530.jpg",
+            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_launch_pa_image_thumbnail_20240918150530.jpeg",
+            "credit": "NASA/Bill Ingalls",
+            "license": {
+              "id": 4,
+              "name": "NASA Image and Media Guidelines",
+              "priority": 0,
+              "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+            },
+            "single_use": true,
+            "variants": []
+          },
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+          "longitude": 63.305,
+          "latitude": 45.965,
+          "timezone_name": "Asia/Qyzylorda",
+          "total_launch_count": 1563,
+          "total_landing_count": 0
+        }
+      },
+      "webcast_live": false,
+      "program": [
+        {
+          "response_mode": "normal",
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.3.0/programs/17/",
+          "name": "International Space Station",
+          "image": {
+            "id": 1874,
+            "name": "[AUTO] International Space Station - image",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305194014.png",
+            "credit": null,
+            "license": {
+              "id": 1,
+              "name": "Unknown",
+              "priority": 9,
+              "link": null
+            },
+            "single_use": true,
+            "variants": []
+          },
+          "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
+          "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+          "agencies": [
+            {
+              "response_mode": "list",
+              "id": 16,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/16/",
+              "name": "Canadian Space Agency",
+              "abbrev": "CSA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 27,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/27/",
+              "name": "European Space Agency",
+              "abbrev": "ESA",
+              "type": {
+                "id": 2,
+                "name": "Multinational"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 37,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
+              "name": "Japan Aerospace Exploration Agency",
+              "abbrev": "JAXA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/44/",
+              "name": "National Aeronautics and Space Administration",
+              "abbrev": "NASA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 63,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
+              "name": "Russian Federal Space Agency (ROSCOSMOS)",
+              "abbrev": "RFSA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            }
+          ],
+          "start_date": "1998-11-20T06:40:00Z",
+          "end_date": null,
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        },
+        {
+          "response_mode": "normal",
+          "id": 8,
+          "url": "https://ll.thespacedevs.com/2.3.0/programs/8/",
+          "name": "Soyuz",
+          "image": {
+            "id": 1892,
+            "name": "[AUTO] Soyuz - image",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_program_20201129185543.png",
+            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305194048.png",
+            "credit": null,
+            "license": {
+              "id": 1,
+              "name": "Unknown",
+              "priority": 9,
+              "link": null
+            },
+            "single_use": true,
+            "variants": []
+          },
+          "info_url": null,
+          "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_programme",
+          "description": "The Soyuz programme is a human spaceflight programme initiated by the Soviet Union in the early 1960s. The Soyuz spacecraft was originally part of a Moon landing project intended to put a Soviet cosmonaut on the Moon. It was the third Soviet human spaceflight programme after the Vostok and Voskhod programmes.",
+          "agencies": [
+            {
+              "response_mode": "list",
+              "id": 63,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
+              "name": "Russian Federal Space Agency (ROSCOSMOS)",
+              "abbrev": "RFSA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 66,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/66/",
+              "name": "Soviet Space Program",
+              "abbrev": "CCCP",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            }
+          ],
+          "start_date": "1966-11-28T11:02:00Z",
+          "end_date": null,
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 5601,
+      "location_launch_attempt_count": 1472,
+      "pad_launch_attempt_count": 473,
+      "agency_launch_attempt_count": 260,
+      "orbital_launch_attempt_count_year": 72,
+      "location_launch_attempt_count_year": 10,
+      "pad_launch_attempt_count_year": 4,
+      "agency_launch_attempt_count_year": 8
+    },
+    {
+      "id": "8e2d9e38-577b-4acb-bc01-f83385cf31bd",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/8e2d9e38-577b-4acb-bc01-f83385cf31bd/",
+      "name": "Atlas V 541 | GOES-R",
+      "response_mode": "normal",
+      "slug": "atlas-v-541-goes-r",
+      "launch_designator": "2016-071",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "last_updated": "2023-06-14T17:42:18Z",
+      "net": "2016-11-19T23:42:00Z",
+      "net_precision": null,
+      "window_end": "2016-11-19T23:42:00Z",
+      "window_start": "2016-11-19T22:42:00Z",
+      "image": {
+        "id": 1704,
+        "name": "[AUTO] Atlas V 541 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520541_image_20190224012314.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193534.jpeg",
+        "credit": null,
+        "license": {
+          "id": 1,
+          "name": "Unknown",
+          "priority": 9,
+          "link": null
+        },
+        "single_use": true,
+        "variants": []
+      },
+      "infographic": null,
+      "probability": 100,
+      "weather_concerns": null,
+      "failreason": null,
+      "hashtag": null,
+      "launch_service_provider": {
+        "response_mode": "list",
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "abbrev": "ULA",
+        "type": {
+          "id": 3,
+          "name": "Commercial"
+        }
+      },
+      "rocket": {
+        "id": 1966,
+        "configuration": {
+          "response_mode": "list",
+          "id": 1,
+          "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/1/",
+          "name": "Atlas V 541",
+          "families": [
+            {
+              "response_mode": "list",
+              "id": 66,
+              "name": "Atlas"
+            },
+            {
+              "response_mode": "list",
+              "id": 174,
+              "name": "Atlas V"
+            }
+          ],
+          "full_name": "Atlas V 541",
+          "variant": "541"
+        }
+      },
+      "mission": {
+        "id": 261,
+        "name": "GOES-R",
+        "type": "Earth Science",
+        "description": "The Geostationary Operational Environmental Satellite-R Series (GOES-R) is the next generation of geostationary weather satellites. The four satellites of the series will provide advanced imaging with increased spatial resolution and faster coverage for more accurate forecasts, real-time mapping of lightning activity, and improved monitoring of solar activity. GOES-R is the first satellite of the series, and it will provide continuous imagery and atmospheric measurements of Earth\u00e2\u20ac\u2122s Western Hemisphere and space weather monitoring. It will be the primary tool for the detection and tracking of hurricanes and severe weather.",
+        "image": null,
+        "orbit": {
+          "id": 2,
+          "name": "Geostationary Transfer Orbit",
+          "abbrev": "GTO",
+          "celestial_body": {
+            "response_mode": "list",
+            "id": 1,
+            "name": "Earth"
+          }
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.3.0/pads/29/",
+        "active": true,
+        "agencies": [],
+        "name": "Space Launch Complex 41",
+        "image": {
+          "id": 1394,
+          "name": "Atlas V 541 on the pad (Mars 2020/Perseverance rover & Ingenuity helicopter)",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v252_image_20200729144937.jpg",
+          "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192627.jpeg",
+          "credit": "United Launch Alliance",
+          "license": {
+            "id": 10,
+            "name": "ULA Image Use Policy",
+            "priority": 3,
+            "link": "https://www.ulalaunch.com/terms-and-conditions"
+          },
+          "single_use": false,
+          "variants": []
+        },
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": 28.58341025,
+        "longitude": -80.58303644,
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 123,
+        "orbital_launch_attempt_count": 123,
+        "fastest_turnaround": "P15DT22H26M17S",
+        "location": {
+          "response_mode": "normal",
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.3.0/locations/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "celestial_body": {
+            "response_mode": "normal",
+            "id": 1,
+            "name": "Earth",
+            "type": {
+              "id": 1,
+              "name": "Planet"
+            },
+            "diameter": 12742000.0,
+            "mass": 5.972168e+24,
+            "gravity": 9.80655,
+            "length_of_day": "1 00:00:00",
+            "atmosphere": true,
+            "image": {
+              "id": 2040,
+              "name": "Earth (Apollo 17)",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
+              "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
+              "credit": "NASA",
+              "license": {
+                "id": 4,
+                "name": "NASA Image and Media Guidelines",
+                "priority": 0,
+                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+              },
+              "single_use": true,
+              "variants": []
+            },
+            "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
+            "wiki_url": "https://en.wikipedia.org/wiki/Earth",
+            "total_attempted_launches": 7501,
+            "successful_launches": 6945,
+            "failed_launches": 556,
+            "total_attempted_landings": 1305,
+            "successful_landings": 1258,
+            "failed_landings": 47
+          },
+          "active": true,
+          "country": {
+            "id": 2,
+            "name": "United States of America",
+            "alpha_2_code": "US",
+            "alpha_3_code": "USA",
+            "nationality_name": "American",
+            "nationality_name_composed": "Americano"
+          },
+          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+          "image": {
+            "id": 2200,
+            "name": "Cape Canaveral & KSC seen from orbit (STS-43)",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cape_canaveral__image_20240918151615.jpg",
+            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cape_canaveral__image_thumbnail_20240918151616.jpeg",
+            "credit": "NASA",
+            "license": {
+              "id": 4,
+              "name": "NASA Image and Media Guidelines",
+              "priority": 0,
+              "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+            },
+            "single_use": true,
+            "variants": []
+          },
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "longitude": -80.577778,
+          "latitude": 28.488889,
+          "timezone_name": "America/New_York",
+          "total_launch_count": 1106,
+          "total_landing_count": 74
+        }
+      },
+      "webcast_live": false,
+      "program": [
+        {
+          "response_mode": "normal",
+          "id": 37,
+          "url": "https://ll.thespacedevs.com/2.3.0/programs/37/",
+          "name": "Geostationary Operational Environmental Satellite",
+          "image": {
+            "id": 2118,
+            "name": "GOES-U render",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/goes-u_render_image_20240623151909.jpg",
+            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/goes-u_render_image_thumbnail_20240623151910.png",
+            "credit": "NASA",
+            "license": {
+              "id": 4,
+              "name": "NASA Image and Media Guidelines",
+              "priority": 0,
+              "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+            },
+            "single_use": true,
+            "variants": []
+          },
+          "info_url": null,
+          "wiki_url": "https://en.wikipedia.org/wiki/Geostationary_Operational_Environmental_Satellite",
+          "description": "The Geostationary Operational Environmental Satellite (GOES), operated by the United States' National Oceanic and Atmospheric Administration (NOAA)'s National Environmental Satellite, Data, and Information Service division, supports weather forecasting, severe storm tracking, and meteorology research",
+          "agencies": [
+            {
+              "response_mode": "list",
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/44/",
+              "name": "National Aeronautics and Space Administration",
+              "abbrev": "NASA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 210,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/210/",
+              "name": "National Oceanic and Atmospheric Administration",
+              "abbrev": "NOAA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            }
+          ],
+          "start_date": "1975-10-16T22:40:00Z",
+          "end_date": null,
+          "mission_patches": [],
+          "type": {
+            "id": 8,
+            "name": "Earth Observation"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 5602,
+      "location_launch_attempt_count": 752,
+      "pad_launch_attempt_count": 83,
+      "agency_launch_attempt_count": 114,
+      "orbital_launch_attempt_count_year": 73,
+      "location_launch_attempt_count_year": 16,
+      "pad_launch_attempt_count_year": 7,
+      "agency_launch_attempt_count_year": 10
+    }
+  ]
+}

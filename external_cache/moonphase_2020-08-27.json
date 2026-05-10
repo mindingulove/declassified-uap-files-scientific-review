@@ -1,0 +1,37 @@
+{
+  "apiversion": "4.0.1",
+  "day": 27,
+  "month": 8,
+  "numphases": 4,
+  "phasedata": [
+    {
+      "day": 2,
+      "month": 9,
+      "phase": "Full Moon",
+      "time": "05:22",
+      "year": 2020
+    },
+    {
+      "day": 10,
+      "month": 9,
+      "phase": "Last Quarter",
+      "time": "09:26",
+      "year": 2020
+    },
+    {
+      "day": 17,
+      "month": 9,
+      "phase": "New Moon",
+      "time": "11:00",
+      "year": 2020
+    },
+    {
+      "day": 24,
+      "month": 9,
+      "phase": "First Quarter",
+      "time": "01:55",
+      "year": 2020
+    }
+  ],
+  "year": 2020
+}

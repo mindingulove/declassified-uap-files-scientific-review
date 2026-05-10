@@ -1,0 +1,71 @@
+[
+  {
+    "record_index": 157,
+    "title": "FBI September 2023 Sighting - Composite Sketch",
+    "ocr_path": "./ocr_text/157-fbi-september-2023-sighting---composite-sketch.ocr.txt",
+    "ocr_chars": 395,
+    "priority_score": 9,
+    "priority_reasons": [
+      "multi-witness/corroboration language",
+      "generic eyewitness-history language",
+      "forensic/rendered witness-composite material"
+    ],
+    "mode": "priority"
+  },
+  {
+    "record_index": 159,
+    "title": "FBI September 2023 Sighting - Serial 4",
+    "ocr_path": "./ocr_text/159-fbi-september-2023-sighting---serial-4.ocr.txt",
+    "ocr_chars": 3719,
+    "priority_score": 8,
+    "priority_reasons": [
+      "formal FBI 302 witness interview",
+      "direct witness testimony"
+    ],
+    "mode": "priority"
+  },
+  {
+    "record_index": 22,
+    "title": "331_120752_Numeric_Files_1944\u20131945_37153_German_Armament_Equipment_Documents",
+    "ocr_path": "./ocr_text/022-331_120752_numeric_files_1944-1945_37153_german_armament_equipment_documents.ocr.txt",
+    "ocr_chars": 4531,
+    "priority_score": 4,
+    "priority_reasons": [
+      "WWII-era UAP/foofighter historical record"
+    ],
+    "mode": "priority"
+  },
+  {
+    "record_index": 25,
+    "title": "342_HS1-416511228_319.1 Flying Discs 1949",
+    "ocr_path": "./ocr_text/025-342_hs1-416511228_319.1-flying-discs-1949.ocr.txt",
+    "ocr_chars": 4111,
+    "priority_score": 4,
+    "priority_reasons": [
+      "structured historical incident-report collection"
+    ],
+    "mode": "priority"
+  },
+  {
+    "record_index": 29,
+    "title": "59_214434_SP 16 [7.18.1963]",
+    "ocr_path": "./ocr_text/029-59_214434_sp-16-7.18.1963.ocr.txt",
+    "ocr_chars": 12123,
+    "priority_score": 4,
+    "priority_reasons": [
+      "unique presidential-council policy memo"
+    ],
+    "mode": "priority"
+  },
+  {
+    "record_index": 32,
+    "title": "65_HS1-101634279_100-DE-26505",
+    "ocr_path": "./ocr_text/032-65_hs1-101634279_100-de-26505.ocr.txt",
+    "ocr_chars": 5019,
+    "priority_score": 4,
+    "priority_reasons": [
+      "WWII-era UAP/foofighter historical record"
+    ],
+    "mode": "priority"
+  }
+]

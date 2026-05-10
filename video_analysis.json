@@ -1,0 +1,702 @@
+[
+  {
+    "record_index": 21,
+    "dvids_video_id": "1006119",
+    "title": "NASA-UAP-D3A, Gemini 7 Audio Excerpt, 1965",
+    "video_title": "",
+    "duration_seconds": 371.604567,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006119-nasa-uap-d3a-gemini-7-audio-excerpt-1965.mp4",
+    "sample_frames": [
+      "./video_frames/1006119/10.jpg",
+      "./video_frames/1006119/30.jpg",
+      "./video_frames/1006119/50.jpg",
+      "./video_frames/1006119/70.jpg",
+      "./video_frames/1006119/90.jpg"
+    ],
+    "claimed_sensor": "",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 79,
+    "dvids_video_id": "1006056",
+    "title": "DOW-UAP-PR19, Unresolved UAP Report, Middle East, May 2022",
+    "video_title": "Unresolved UAP Report, Middle East, May 2022",
+    "duration_seconds": 5.4,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006056-dow-uap-pr19-unresolved-uap-report-middle-east-may-2022.mp4",
+    "sample_frames": [
+      "./video_frames/1006056/10.jpg",
+      "./video_frames/1006056/30.jpg",
+      "./video_frames/1006056/50.jpg",
+      "./video_frames/1006056/70.jpg",
+      "./video_frames/1006056/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 81,
+    "dvids_video_id": "1006059",
+    "title": "DOW-UAP-PR21, Unresolved UAP Report, Iraq, May 2022",
+    "video_title": "Unresolved UAP Report, Iraq, May 2022",
+    "duration_seconds": 10.266667,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006059-dow-uap-pr21-unresolved-uap-report-iraq-may-2022.mp4",
+    "sample_frames": [
+      "./video_frames/1006059/10.jpg",
+      "./video_frames/1006059/30.jpg",
+      "./video_frames/1006059/50.jpg",
+      "./video_frames/1006059/70.jpg",
+      "./video_frames/1006059/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 82,
+    "dvids_video_id": "1006060",
+    "title": "DOW-UAP-PR22, Unresolved UAP Report, Syria, July 2022",
+    "video_title": "Unresolved UAP Report, Syria, July 2022",
+    "duration_seconds": 14.2,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006060-dow-uap-pr22-unresolved-uap-report-syria-july-2022.mp4",
+    "sample_frames": [
+      "./video_frames/1006060/10.jpg",
+      "./video_frames/1006060/30.jpg",
+      "./video_frames/1006060/50.jpg",
+      "./video_frames/1006060/70.jpg",
+      "./video_frames/1006060/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 83,
+    "dvids_video_id": "1006062",
+    "title": "DOW-UAP-PR23, Unresolved UAP Report, Iraq, December 2022",
+    "video_title": "Unresolved UAP Report, Iraq, December 2022",
+    "duration_seconds": 10.733333,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006062-dow-uap-pr23-unresolved-uap-report-iraq-december-2022.mp4",
+    "sample_frames": [
+      "./video_frames/1006062/10.jpg",
+      "./video_frames/1006062/30.jpg",
+      "./video_frames/1006062/50.jpg",
+      "./video_frames/1006062/70.jpg",
+      "./video_frames/1006062/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 84,
+    "dvids_video_id": "1006063",
+    "title": "DOW-UAP-PR26, Unresolved UAP Report, United Arab Emirates, October 2023",
+    "video_title": "Unresolved UAP Report, United Arab Emirates, October 2023",
+    "duration_seconds": 43.166667,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006063-dow-uap-pr26-unresolved-uap-report-united-arab-emirates-october-2023.mp4",
+    "sample_frames": [
+      "./video_frames/1006063/10.jpg",
+      "./video_frames/1006063/30.jpg",
+      "./video_frames/1006063/50.jpg",
+      "./video_frames/1006063/70.jpg",
+      "./video_frames/1006063/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 85,
+    "dvids_video_id": "1006067",
+    "title": "DOW-UAP-PR27, Unresolved UAP Report, United Arab Emirates, October 2023",
+    "video_title": "Unresolved UAP Report, United Arab Emirates, October 2023",
+    "duration_seconds": 297.333333,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006067-dow-uap-pr27-unresolved-uap-report-united-arab-emirates-october-2023.mp4",
+    "sample_frames": [
+      "./video_frames/1006067/10.jpg",
+      "./video_frames/1006067/30.jpg",
+      "./video_frames/1006067/50.jpg",
+      "./video_frames/1006067/70.jpg",
+      "./video_frames/1006067/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 86,
+    "dvids_video_id": "1006073",
+    "title": "DOW-UAP-PR28, Unresolved UAP Report, Greece, January 2024",
+    "video_title": "Unresolved UAP Report, Greece, January 2024",
+    "duration_seconds": 66.0,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006073-dow-uap-pr28-unresolved-uap-report-greece-january-2024.mp4",
+    "sample_frames": [
+      "./video_frames/1006073/10.jpg",
+      "./video_frames/1006073/30.jpg",
+      "./video_frames/1006073/50.jpg",
+      "./video_frames/1006073/70.jpg",
+      "./video_frames/1006073/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 87,
+    "dvids_video_id": "1006074",
+    "title": "DOW-UAP-PR29, Unresolved UAP Report, United Arab Emirates, June 2024",
+    "video_title": "Unresolved UAP Report, Gulf of Oman, June 2024",
+    "duration_seconds": 21.8,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006074-dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june-2024.mp4",
+    "sample_frames": [
+      "./video_frames/1006074/10.jpg",
+      "./video_frames/1006074/30.jpg",
+      "./video_frames/1006074/50.jpg",
+      "./video_frames/1006074/70.jpg",
+      "./video_frames/1006074/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": true,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 88,
+    "dvids_video_id": "1006076",
+    "title": "DOW-UAP-PR31, Unresolved UAP Report, Syria, October 2024",
+    "video_title": "Unresolved UAP Report, Syria, October 2024",
+    "duration_seconds": 5.133333,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006076-dow-uap-pr31-unresolved-uap-report-syria-october-2024.mp4",
+    "sample_frames": [
+      "./video_frames/1006076/10.jpg",
+      "./video_frames/1006076/30.jpg",
+      "./video_frames/1006076/50.jpg",
+      "./video_frames/1006076/70.jpg",
+      "./video_frames/1006076/90.jpg"
+    ],
+    "claimed_sensor": "",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 89,
+    "dvids_video_id": "1006078",
+    "title": "DOW-UAP-PR32, Unresolved UAP Report, Syria, October 2024",
+    "video_title": "Unresolved UAP Report, Syria, October 2024",
+    "duration_seconds": 6.6,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006078-dow-uap-pr32-unresolved-uap-report-syria-october-2024.mp4",
+    "sample_frames": [
+      "./video_frames/1006078/10.jpg",
+      "./video_frames/1006078/30.jpg",
+      "./video_frames/1006078/50.jpg",
+      "./video_frames/1006078/70.jpg",
+      "./video_frames/1006078/90.jpg"
+    ],
+    "claimed_sensor": "",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 90,
+    "dvids_video_id": "1006079",
+    "title": "DOW-UAP-PR33, Unresolved UAP Report, Syria, October 2024",
+    "video_title": "Unresolved UAP Report, Syria, October 2024",
+    "duration_seconds": 5.033333,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006079-dow-uap-pr33-unresolved-uap-report-syria-october-2024.mp4",
+    "sample_frames": [
+      "./video_frames/1006079/10.jpg",
+      "./video_frames/1006079/30.jpg",
+      "./video_frames/1006079/50.jpg",
+      "./video_frames/1006079/70.jpg",
+      "./video_frames/1006079/90.jpg"
+    ],
+    "claimed_sensor": "",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 91,
+    "dvids_video_id": "1006080",
+    "title": "DOW-UAP-PR34, Unresolved UAP Report, Greece, October 2023",
+    "video_title": "Unresolved UAP Report, Greece, October 2023",
+    "duration_seconds": 177.2,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006080-dow-uap-pr34-unresolved-uap-report-greece-october-2023.mp4",
+    "sample_frames": [
+      "./video_frames/1006080/10.jpg",
+      "./video_frames/1006080/30.jpg",
+      "./video_frames/1006080/50.jpg",
+      "./video_frames/1006080/70.jpg",
+      "./video_frames/1006080/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 92,
+    "dvids_video_id": "1006082",
+    "title": "DOW-UAP-PR35, Unresolved UAP Report, Greece, October 2023",
+    "video_title": "Unresolved UAP Report, Greece, October 2023",
+    "duration_seconds": 24.5,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006082-dow-uap-pr35-unresolved-uap-report-greece-october-2023.mp4",
+    "sample_frames": [
+      "./video_frames/1006082/10.jpg",
+      "./video_frames/1006082/30.jpg",
+      "./video_frames/1006082/50.jpg",
+      "./video_frames/1006082/70.jpg",
+      "./video_frames/1006082/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 93,
+    "dvids_video_id": "1006083",
+    "title": "DOW-UAP-PR36, Unresolved UAP Report, Middle East, May 2020",
+    "video_title": "Unresolved UAP Report, Middle East, May 2020",
+    "duration_seconds": 137.366667,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006083-dow-uap-pr36-unresolved-uap-report-middle-east-may-2020.mp4",
+    "sample_frames": [
+      "./video_frames/1006083/10.jpg",
+      "./video_frames/1006083/30.jpg",
+      "./video_frames/1006083/50.jpg",
+      "./video_frames/1006083/70.jpg",
+      "./video_frames/1006083/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 94,
+    "dvids_video_id": "1006087",
+    "title": "DOW-UAP-PR37, Unresolved UAP Report, Middle East, 2020",
+    "video_title": "Unresolved UAP Report, Arabian Gulf 2020",
+    "duration_seconds": 9.8,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006087-dow-uap-pr37-unresolved-uap-report-middle-east-2020.mp4",
+    "sample_frames": [
+      "./video_frames/1006087/10.jpg",
+      "./video_frames/1006087/30.jpg",
+      "./video_frames/1006087/50.jpg",
+      "./video_frames/1006087/70.jpg",
+      "./video_frames/1006087/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 95,
+    "dvids_video_id": "1006088",
+    "title": "DOW-UAP-PR38, Unresolved UAP Report, Middle East, 2013",
+    "video_title": "Resolved as an Aircraft, Middle East 2013",
+    "duration_seconds": 106.433333,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006088-dow-uap-pr38-unresolved-uap-report-middle-east-2013.mp4",
+    "sample_frames": [
+      "./video_frames/1006088/10.jpg",
+      "./video_frames/1006088/30.jpg",
+      "./video_frames/1006088/50.jpg",
+      "./video_frames/1006088/70.jpg",
+      "./video_frames/1006088/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": true,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 96,
+    "dvids_video_id": "1006089",
+    "title": "DOW-UAP-PR39, Unresolved UAP Report, Middle East, 2020",
+    "video_title": "Unresolved UAP Report, Arabian Gulf, 2020",
+    "duration_seconds": 5.833333,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006089-dow-uap-pr39-unresolved-uap-report-middle-east-2020.mp4",
+    "sample_frames": [
+      "./video_frames/1006089/10.jpg",
+      "./video_frames/1006089/30.jpg",
+      "./video_frames/1006089/50.jpg",
+      "./video_frames/1006089/70.jpg",
+      "./video_frames/1006089/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 97,
+    "dvids_video_id": "1006093",
+    "title": "DOW-UAP-PR40, Unresolved UAP Report, Middle East, 2020",
+    "video_title": "Unresolved UAP Report, Arabian Gulf, 2020",
+    "duration_seconds": 63.2,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006093-dow-uap-pr40-unresolved-uap-report-middle-east-2020.mp4",
+    "sample_frames": [
+      "./video_frames/1006093/10.jpg",
+      "./video_frames/1006093/30.jpg",
+      "./video_frames/1006093/50.jpg",
+      "./video_frames/1006093/70.jpg",
+      "./video_frames/1006093/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": false,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 98,
+    "dvids_video_id": "1006094",
+    "title": "DOW-UAP-PR41, Unresolved UAP Report, Middle East, 2020",
+    "video_title": "Unresolved UAP Report, Arabian Gulf, 2020",
+    "duration_seconds": 94.533333,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006094-dow-uap-pr41-unresolved-uap-report-middle-east-2020.mp4",
+    "sample_frames": [
+      "./video_frames/1006094/10.jpg",
+      "./video_frames/1006094/30.jpg",
+      "./video_frames/1006094/50.jpg",
+      "./video_frames/1006094/70.jpg",
+      "./video_frames/1006094/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 99,
+    "dvids_video_id": "1006097",
+    "title": "DOW-UAP-PR42, Unresolved UAP Report, Middle East, 2020",
+    "video_title": "Unresolved UAP Report, Arabian Gulf, 2020",
+    "duration_seconds": 293.172293,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006097-dow-uap-pr42-unresolved-uap-report-middle-east-2020.mp4",
+    "sample_frames": [
+      "./video_frames/1006097/10.jpg",
+      "./video_frames/1006097/30.jpg",
+      "./video_frames/1006097/50.jpg",
+      "./video_frames/1006097/70.jpg",
+      "./video_frames/1006097/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 100,
+    "dvids_video_id": "1006159",
+    "title": "DOW-UAP-PR43, Unresolved UAP Report, Africa, 2025",
+    "video_title": "Unresolved UAP Report, Djibouti, 2025",
+    "duration_seconds": 11.745067,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006159-dow-uap-pr43-unresolved-uap-report-africa-2025.mp4",
+    "sample_frames": [
+      "./video_frames/1006159/10.jpg",
+      "./video_frames/1006159/30.jpg",
+      "./video_frames/1006159/50.jpg",
+      "./video_frames/1006159/70.jpg",
+      "./video_frames/1006159/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": true
+    }
+  },
+  {
+    "record_index": 101,
+    "dvids_video_id": "1006104",
+    "title": "DOW-UAP-PR44, Unresolved UAP Report, Middle East, 2020",
+    "video_title": "Unresolved UAP Report, Arabian Gulf, 2020",
+    "duration_seconds": 312.0,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006104-dow-uap-pr44-unresolved-uap-report-middle-east-2020.mp4",
+    "sample_frames": [
+      "./video_frames/1006104/10.jpg",
+      "./video_frames/1006104/30.jpg",
+      "./video_frames/1006104/50.jpg",
+      "./video_frames/1006104/70.jpg",
+      "./video_frames/1006104/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 102,
+    "dvids_video_id": "1006105",
+    "title": "DOW-UAP-PR45, Unresolved UAP Report, Middle East, 2020",
+    "video_title": "Unresolved UAP Report, Southern United States, 2020",
+    "duration_seconds": 58.766667,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006105-dow-uap-pr45-unresolved-uap-report-middle-east-2020.mp4",
+    "sample_frames": [
+      "./video_frames/1006105/10.jpg",
+      "./video_frames/1006105/30.jpg",
+      "./video_frames/1006105/50.jpg",
+      "./video_frames/1006105/70.jpg",
+      "./video_frames/1006105/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 103,
+    "dvids_video_id": "1006106",
+    "title": "DOW-UAP-PR46, Unresolved UAP Report, INDOPACOM, 2024",
+    "video_title": "Unresolved UAP Report East China Sea, 2024",
+    "duration_seconds": 9.866667,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006106-dow-uap-pr46-unresolved-uap-report-indopacom-2024.mp4",
+    "sample_frames": [
+      "./video_frames/1006106/10.jpg",
+      "./video_frames/1006106/30.jpg",
+      "./video_frames/1006106/50.jpg",
+      "./video_frames/1006106/70.jpg",
+      "./video_frames/1006106/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 104,
+    "dvids_video_id": "1006107",
+    "title": "DOW-UAP-PR47, Unresolved UAP Report, INDOPACOM, 2023",
+    "video_title": "Unresolved UAP Report Japan, 2023",
+    "duration_seconds": 119.666667,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006107-dow-uap-pr47-unresolved-uap-report-indopacom-2023.mp4",
+    "sample_frames": [
+      "./video_frames/1006107/10.jpg",
+      "./video_frames/1006107/30.jpg",
+      "./video_frames/1006107/50.jpg",
+      "./video_frames/1006107/70.jpg",
+      "./video_frames/1006107/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 105,
+    "dvids_video_id": "1006110",
+    "title": "DOW-UAP-PR48, Unresolved UAP Report, INDOPACOM, 2024",
+    "video_title": "Unresolved UAP Report, Indo-PACOM 2024",
+    "duration_seconds": 99.366667,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006110-dow-uap-pr48-unresolved-uap-report-indopacom-2024.mp4",
+    "sample_frames": [
+      "./video_frames/1006110/10.jpg",
+      "./video_frames/1006110/30.jpg",
+      "./video_frames/1006110/50.jpg",
+      "./video_frames/1006110/70.jpg",
+      "./video_frames/1006110/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  },
+  {
+    "record_index": 106,
+    "dvids_video_id": "1006111",
+    "title": "DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026",
+    "video_title": "Unresolved UAP Report, Department of the Army 2026",
+    "duration_seconds": 109.2,
+    "width": 1280,
+    "height": 720,
+    "has_audio": true,
+    "local_path": "./videos/mp4/1006111-dow-uap-pr49-unresolved-uap-report-department-of-the-army-2026.mp4",
+    "sample_frames": [
+      "./video_frames/1006111/10.jpg",
+      "./video_frames/1006111/30.jpg",
+      "./video_frames/1006111/50.jpg",
+      "./video_frames/1006111/70.jpg",
+      "./video_frames/1006111/90.jpg"
+    ],
+    "claimed_sensor": "infrared",
+    "description_flags": {
+      "resolved_as_aircraft": false,
+      "reflection_possible": false,
+      "no_written_description": true,
+      "looped": false
+    }
+  }
+]

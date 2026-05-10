@@ -1,0 +1,418 @@
+request_id,case_id,field_needed,reason,priority,status
+819,156,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",10,open
+820,156,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",10,open
+829,161,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",10,open
+830,161,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",10,open
+416,1,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+414,1,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+415,1,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+419,2,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+417,2,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+418,2,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+422,3,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+420,3,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+421,3,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+425,4,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+423,4,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+424,4,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+428,5,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+426,5,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+427,5,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+431,6,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+429,6,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+430,6,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+434,7,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+432,7,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+433,7,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+437,8,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+435,8,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+436,8,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+440,9,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+438,9,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+439,9,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+443,10,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+441,10,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+442,10,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+446,11,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+444,11,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+445,11,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+449,12,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+447,12,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+448,12,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+452,13,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+450,13,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+451,13,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+455,14,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+453,14,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+454,14,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+458,15,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+456,15,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+457,15,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+461,16,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+459,16,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+460,16,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+463,17,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+462,17,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+465,18,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+464,18,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+468,19,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+466,19,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+467,19,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+470,20,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+469,20,narrow_event_location_or_coordinates,"Current location precision is non_earth_or_space; needed for ADS-B/satellite/weather.",5,open
+472,21,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+471,21,narrow_event_location_or_coordinates,"Current location precision is non_earth_or_space; needed for ADS-B/satellite/weather.",5,open
+473,21,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+474,23,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+475,24,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+476,25,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+479,26,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+477,26,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+478,26,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+482,27,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+480,27,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+481,27,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+485,28,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+483,28,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+484,28,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+487,29,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+486,29,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+489,30,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+488,30,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+490,31,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+491,32,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+494,33,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+492,33,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+493,33,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+497,34,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+495,34,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+496,34,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+499,35,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+498,35,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+501,36,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+500,36,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+503,37,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+502,37,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+505,38,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+504,38,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+507,39,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+506,39,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+509,40,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+508,40,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+511,41,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+510,41,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+513,42,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+512,42,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+515,43,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+514,43,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+516,44,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+517,45,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+519,46,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+518,46,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+522,47,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+520,47,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+521,47,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+524,48,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+523,48,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+526,49,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+525,49,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+528,50,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+527,50,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+530,51,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+529,51,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+532,52,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+531,52,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+534,53,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+533,53,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+537,54,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+535,54,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+536,54,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+539,55,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+538,55,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+541,56,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+540,56,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+543,57,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+542,57,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+545,58,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+544,58,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+547,59,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+546,59,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+550,60,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+548,60,exact_event_date,"Current date precision is partial_or_range; needed for astronomy/ADS-B/weather.",5,open
+549,60,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+551,61,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+553,62,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+552,62,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+555,63,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+554,63,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+557,64,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+556,64,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+559,65,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+558,65,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+560,66,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+562,67,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+561,67,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+564,68,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+563,68,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+566,69,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+565,69,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+568,70,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+567,70,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+569,71,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+570,72,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+571,73,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+573,74,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+572,74,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+576,75,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+574,75,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+575,75,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+578,76,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+577,76,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+579,77,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+581,78,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+580,78,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+584,79,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+582,79,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+583,79,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+585,79,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+588,80,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+586,80,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+587,80,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+591,81,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+589,81,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+590,81,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+592,81,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+595,82,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+593,82,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+594,82,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+596,82,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+599,83,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+597,83,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+598,83,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+600,83,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+602,84,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+601,84,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+603,84,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+605,85,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+604,85,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+606,85,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+608,86,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+607,86,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+609,86,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+611,87,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+610,87,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+612,87,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+615,88,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+613,88,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+614,88,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+616,88,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+619,89,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+617,89,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+618,89,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+620,89,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+623,90,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+621,90,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+622,90,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+624,90,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+626,91,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+625,91,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+627,91,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+629,92,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+628,92,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+630,92,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+633,93,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+631,93,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+632,93,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+634,93,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+637,94,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+635,94,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+636,94,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+638,94,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+641,95,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+639,95,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+640,95,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+642,95,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+645,96,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+643,96,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+644,96,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+646,96,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+649,97,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+647,97,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+648,97,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+650,97,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+653,98,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+651,98,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+652,98,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+654,98,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+657,99,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+655,99,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+656,99,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+658,99,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+660,100,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+659,100,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+661,100,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+664,101,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+662,101,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+663,101,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+665,101,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+667,102,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+666,102,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+668,102,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+670,103,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+669,103,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+671,103,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+673,104,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+672,104,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+674,104,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+676,105,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+675,105,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+677,105,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+679,106,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+678,106,exact_event_date,"Current date precision is missing; needed for astronomy/ADS-B/weather.",5,open
+680,106,sensor_geometry_fov_platform_pose,"Needed for photogrammetry and angular velocity.",5,open
+681,107,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+682,107,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+683,107,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+684,108,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+685,108,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+686,108,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+687,109,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+688,109,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+689,109,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+690,110,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+691,110,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+692,110,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+693,111,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+694,111,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+695,111,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+696,112,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+697,112,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+698,112,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+699,113,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+700,113,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+701,113,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+702,114,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+703,114,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+704,114,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+707,115,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+705,115,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+706,115,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+710,116,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+708,116,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+709,116,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+713,117,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+711,117,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+712,117,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+716,118,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+714,118,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+715,118,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+719,119,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+717,119,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+718,119,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+722,120,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+720,120,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+721,120,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+725,121,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+723,121,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+724,121,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+728,122,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+726,122,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+727,122,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+731,123,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+729,123,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+730,123,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+734,124,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+732,124,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+733,124,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+737,125,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+735,125,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+736,125,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+740,126,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+738,126,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+739,126,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+743,127,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+741,127,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+742,127,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+746,128,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+744,128,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+745,128,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+749,129,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+747,129,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+748,129,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+752,130,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+750,130,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+751,130,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+755,131,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+753,131,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+754,131,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+758,132,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+756,132,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+757,132,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+761,133,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+759,133,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+760,133,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+764,134,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+762,134,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+763,134,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+767,135,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+765,135,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+766,135,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+770,136,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+768,136,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+769,136,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+773,137,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+771,137,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+772,137,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+776,138,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+774,138,exact_event_date,"Current date precision is vague_period; needed for astronomy/ADS-B/weather.",5,open
+775,138,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+779,139,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+777,139,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+778,139,narrow_event_location_or_coordinates,"Current location precision is non_earth_or_space; needed for ADS-B/satellite/weather.",5,open
+782,140,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+780,140,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+781,140,narrow_event_location_or_coordinates,"Current location precision is non_earth_or_space; needed for ADS-B/satellite/weather.",5,open
+785,141,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+783,141,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+784,141,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+788,142,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+786,142,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+787,142,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+791,143,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+789,143,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+790,143,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+794,144,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+792,144,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+793,144,narrow_event_location_or_coordinates,"Current location precision is missing; needed for ADS-B/satellite/weather.",5,open
+795,145,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+796,145,narrow_event_location_or_coordinates,"Current location precision is non_earth_or_space; needed for ADS-B/satellite/weather.",5,open
+797,145,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+798,146,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+799,146,narrow_event_location_or_coordinates,"Current location precision is non_earth_or_space; needed for ADS-B/satellite/weather.",5,open
+800,146,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+801,147,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+802,147,narrow_event_location_or_coordinates,"Current location precision is non_earth_or_space; needed for ADS-B/satellite/weather.",5,open
+803,147,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+804,148,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+805,148,narrow_event_location_or_coordinates,"Current location precision is non_earth_or_space; needed for ADS-B/satellite/weather.",5,open
+806,148,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+807,149,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+808,149,narrow_event_location_or_coordinates,"Current location precision is non_earth_or_space; needed for ADS-B/satellite/weather.",5,open
+809,149,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+810,150,exact_event_date,"Current date precision is year; needed for astronomy/ADS-B/weather.",5,open
+811,150,narrow_event_location_or_coordinates,"Current location precision is non_earth_or_space; needed for ADS-B/satellite/weather.",5,open
+812,150,original_unannotated_archival_image,"Needed to test dust, film grain, reseau marks, scan artifacts, and annotation effects.",5,open
+813,151,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+814,152,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+816,153,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+815,153,exact_event_date,"Current date precision is partial_or_range; needed for astronomy/ADS-B/weather.",5,open
+817,154,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+818,155,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+822,157,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+821,157,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+824,158,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+823,158,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+826,159,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+825,159,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open
+828,160,event_time_or_time_window,"Needed for ADS-B, satellite passes, Venus/Moon altitude, and military activity checks.",5,open
+827,160,narrow_event_location_or_coordinates,"Current location precision is broad_region; needed for ADS-B/satellite/weather.",5,open

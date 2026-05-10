@@ -1,0 +1,368 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": "79e3f7a7-9c50-4d87-a069-c6aa7dd641d6",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/79e3f7a7-9c50-4d87-a069-c6aa7dd641d6/",
+      "name": "Soyuz 2.1a | Soyuz MS-17",
+      "response_mode": "normal",
+      "slug": "soyuz-21a-soyuz-ms-17",
+      "launch_designator": "2020-072",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "last_updated": "2023-06-14T08:56:12Z",
+      "net": "2020-10-14T05:45:04Z",
+      "net_precision": null,
+      "window_end": "2020-10-14T05:45:04Z",
+      "window_start": "2020-10-14T05:45:04Z",
+      "image": {
+        "id": 1828,
+        "name": "[AUTO] Soyuz 2.1a - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193857.jpeg",
+        "credit": null,
+        "license": {
+          "id": 1,
+          "name": "Unknown",
+          "priority": 9,
+          "link": null
+        },
+        "single_use": true,
+        "variants": []
+      },
+      "infographic": null,
+      "probability": null,
+      "weather_concerns": null,
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "response_mode": "list",
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "abbrev": "RFSA",
+        "type": {
+          "id": 1,
+          "name": "Government"
+        }
+      },
+      "rocket": {
+        "id": 2203,
+        "configuration": {
+          "response_mode": "list",
+          "id": 24,
+          "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/24/",
+          "name": "Soyuz 2.1a",
+          "families": [
+            {
+              "response_mode": "list",
+              "id": 147,
+              "name": "Soyuz"
+            },
+            {
+              "response_mode": "list",
+              "id": 190,
+              "name": "Soyuz 2"
+            }
+          ],
+          "full_name": "Soyuz 2.1a",
+          "variant": ""
+        }
+      },
+      "mission": {
+        "id": 1193,
+        "name": "Soyuz MS-17",
+        "type": "Human Exploration",
+        "description": "Soyuz MS-17 begins expedition 63 by carrying Roscosmos cosmonauts Sergey Ryzhikov, Sergey Kud-Sverchkov and NASA astronaut Kathleen Rubins to the International Space Station aboard the Soyuz spacecraft from the Baikonur Cosmodrome in Kazakhstan. After launching from the Baikonur Cosmodrome in Kazakhstan, they will rendezvous to the station where they will remain for their 6 month stay.",
+        "image": null,
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO",
+          "celestial_body": {
+            "response_mode": "list",
+            "id": 1,
+            "name": "Earth"
+          }
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.3.0/pads/20/",
+        "active": true,
+        "agencies": [],
+        "name": "31/6",
+        "image": {
+          "id": 1467,
+          "name": "Soyuz 2.1a liftoff from pad 31/6 (Progress MS-25)",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1a_image_20231231162517.jpg",
+          "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192846.jpeg",
+          "credit": "Roscosmos",
+          "license": {
+            "id": 14,
+            "name": "Roscosmos Image Use Policy",
+            "priority": 3,
+            "link": "https://www.roscosmos.ru/22650/"
+          },
+          "single_use": true,
+          "variants": []
+        },
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": 45.996034,
+        "longitude": 63.564003,
+        "country": {
+          "id": 44,
+          "name": "Kazakhstan",
+          "alpha_2_code": "KZ",
+          "alpha_3_code": "KAZ",
+          "nationality_name": "Kazakh",
+          "nationality_name_composed": "Kazakhstani"
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 428,
+        "orbital_launch_attempt_count": 428,
+        "fastest_turnaround": "P1DT23H9M9S",
+        "location": {
+          "response_mode": "normal",
+          "id": 15,
+          "url": "https://ll.thespacedevs.com/2.3.0/locations/15/",
+          "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+          "celestial_body": {
+            "response_mode": "normal",
+            "id": 1,
+            "name": "Earth",
+            "type": {
+              "id": 1,
+              "name": "Planet"
+            },
+            "diameter": 12742000.0,
+            "mass": 5.972168e+24,
+            "gravity": 9.80655,
+            "length_of_day": "1 00:00:00",
+            "atmosphere": true,
+            "image": {
+              "id": 2040,
+              "name": "Earth (Apollo 17)",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
+              "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
+              "credit": "NASA",
+              "license": {
+                "id": 4,
+                "name": "NASA Image and Media Guidelines",
+                "priority": 0,
+                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+              },
+              "single_use": true,
+              "variants": []
+            },
+            "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
+            "wiki_url": "https://en.wikipedia.org/wiki/Earth",
+            "total_attempted_launches": 7501,
+            "successful_launches": 6945,
+            "failed_launches": 556,
+            "total_attempted_landings": 1305,
+            "successful_landings": 1258,
+            "failed_landings": 47
+          },
+          "active": true,
+          "country": {
+            "id": 44,
+            "name": "Kazakhstan",
+            "alpha_2_code": "KZ",
+            "alpha_3_code": "KAZ",
+            "nationality_name": "Kazakh",
+            "nationality_name_composed": "Kazakhstani"
+          },
+          "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+          "image": {
+            "id": 2198,
+            "name": "Soyuz launch pad at the Baikonur Cosmodrome",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_launch_pa_image_20240918150530.jpg",
+            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_launch_pa_image_thumbnail_20240918150530.jpeg",
+            "credit": "NASA/Bill Ingalls",
+            "license": {
+              "id": 4,
+              "name": "NASA Image and Media Guidelines",
+              "priority": 0,
+              "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+            },
+            "single_use": true,
+            "variants": []
+          },
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+          "longitude": 63.305,
+          "latitude": 45.965,
+          "timezone_name": "Asia/Qyzylorda",
+          "total_launch_count": 1563,
+          "total_landing_count": 0
+        }
+      },
+      "webcast_live": false,
+      "program": [
+        {
+          "response_mode": "normal",
+          "id": 8,
+          "url": "https://ll.thespacedevs.com/2.3.0/programs/8/",
+          "name": "Soyuz",
+          "image": {
+            "id": 1892,
+            "name": "[AUTO] Soyuz - image",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_program_20201129185543.png",
+            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305194048.png",
+            "credit": null,
+            "license": {
+              "id": 1,
+              "name": "Unknown",
+              "priority": 9,
+              "link": null
+            },
+            "single_use": true,
+            "variants": []
+          },
+          "info_url": null,
+          "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_programme",
+          "description": "The Soyuz programme is a human spaceflight programme initiated by the Soviet Union in the early 1960s. The Soyuz spacecraft was originally part of a Moon landing project intended to put a Soviet cosmonaut on the Moon. It was the third Soviet human spaceflight programme after the Vostok and Voskhod programmes.",
+          "agencies": [
+            {
+              "response_mode": "list",
+              "id": 63,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
+              "name": "Russian Federal Space Agency (ROSCOSMOS)",
+              "abbrev": "RFSA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 66,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/66/",
+              "name": "Soviet Space Program",
+              "abbrev": "CCCP",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            }
+          ],
+          "start_date": "1966-11-28T11:02:00Z",
+          "end_date": null,
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        },
+        {
+          "response_mode": "normal",
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.3.0/programs/17/",
+          "name": "International Space Station",
+          "image": {
+            "id": 1874,
+            "name": "[AUTO] International Space Station - image",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305194014.png",
+            "credit": null,
+            "license": {
+              "id": 1,
+              "name": "Unknown",
+              "priority": 9,
+              "link": null
+            },
+            "single_use": true,
+            "variants": []
+          },
+          "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
+          "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+          "agencies": [
+            {
+              "response_mode": "list",
+              "id": 16,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/16/",
+              "name": "Canadian Space Agency",
+              "abbrev": "CSA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 27,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/27/",
+              "name": "European Space Agency",
+              "abbrev": "ESA",
+              "type": {
+                "id": 2,
+                "name": "Multinational"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 37,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
+              "name": "Japan Aerospace Exploration Agency",
+              "abbrev": "JAXA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/44/",
+              "name": "National Aeronautics and Space Administration",
+              "abbrev": "NASA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            },
+            {
+              "response_mode": "list",
+              "id": 63,
+              "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
+              "name": "Russian Federal Space Agency (ROSCOSMOS)",
+              "abbrev": "RFSA",
+              "type": {
+                "id": 1,
+                "name": "Government"
+              }
+            }
+          ],
+          "start_date": "1998-11-20T06:40:00Z",
+          "end_date": null,
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 6002,
+      "location_launch_attempt_count": 1515,
+      "pad_launch_attempt_count": 387,
+      "agency_launch_attempt_count": 292,
+      "orbital_launch_attempt_count_year": 80,
+      "location_launch_attempt_count_year": 7,
+      "pad_launch_attempt_count_year": 6,
+      "agency_launch_attempt_count_year": 4
+    }
+  ]
+}

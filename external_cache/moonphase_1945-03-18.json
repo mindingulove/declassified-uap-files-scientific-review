@@ -1,0 +1,37 @@
+{
+  "apiversion": "4.0.1",
+  "day": 18,
+  "month": 3,
+  "numphases": 4,
+  "phasedata": [
+    {
+      "day": 20,
+      "month": 3,
+      "phase": "First Quarter",
+      "time": "19:11",
+      "year": 1945
+    },
+    {
+      "day": 28,
+      "month": 3,
+      "phase": "Full Moon",
+      "time": "17:44",
+      "year": 1945
+    },
+    {
+      "day": 5,
+      "month": 4,
+      "phase": "Last Quarter",
+      "time": "19:18",
+      "year": 1945
+    },
+    {
+      "day": 12,
+      "month": 4,
+      "phase": "New Moon",
+      "time": "12:29",
+      "year": 1945
+    }
+  ],
+  "year": 1945
+}

@@ -1,0 +1,37 @@
+{
+  "apiversion": "4.0.1",
+  "day": 5,
+  "month": 11,
+  "numphases": 4,
+  "phasedata": [
+    {
+      "day": 5,
+      "month": 11,
+      "phase": "Last Quarter",
+      "time": "05:53",
+      "year": 2004
+    },
+    {
+      "day": 12,
+      "month": 11,
+      "phase": "New Moon",
+      "time": "14:27",
+      "year": 2004
+    },
+    {
+      "day": 19,
+      "month": 11,
+      "phase": "First Quarter",
+      "time": "05:50",
+      "year": 2004
+    },
+    {
+      "day": 26,
+      "month": 11,
+      "phase": "Full Moon",
+      "time": "20:07",
+      "year": 2004
+    }
+  ],
+  "year": 2004
+}

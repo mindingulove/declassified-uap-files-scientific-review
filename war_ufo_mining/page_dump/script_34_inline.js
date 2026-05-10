@@ -1,0 +1,1 @@
+function updateESTClocks() { const now = new Date(); const estTime = now.toLocaleTimeString('en-GB', { timeZone: 'America/New_York', hour: '2-digit', minute: '2-digit', hour12: false }); document.querySelectorAll('.est-clock').forEach(clock => { clock.textContent = estTime; }); } updateESTClocks(); setInterval(updateESTClocks, 1000);

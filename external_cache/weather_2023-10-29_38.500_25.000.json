@@ -1,0 +1,4 @@
+{
+  "fetch_error": "<urlopen error _ssl.c:1063: The handshake operation timed out>",
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=38.5000&longitude=25.0000&start_date=2023-10-29&end_date=2023-10-29&daily=temperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Crain_sum%2Csnowfall_sum%2Cwind_speed_10m_max%2Cwind_gusts_10m_max%2Cweather_code&timezone=UTC"
+}

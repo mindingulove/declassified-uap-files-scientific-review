@@ -1,0 +1,1 @@
+https://www.war.gov/Resources/libraries/jQuery-Migrate/03_04_01/jquery-migrate.js?cdv=2020

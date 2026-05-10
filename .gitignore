@@ -1,0 +1,35 @@
+# macOS / editor
+.DS_Store
+.claude/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Large local source media and rendered pages
+war_ufo_downloads/
+war_ufo_mining/videos/mp4/
+war_ufo_mining/videos/contact_sheets/
+video_frames/
+pdf_pages/
+
+# OCR/page extraction bulk outputs
+page_ocr_text/
+ocr_text/
+text_layer/
+pursue-ufo-pdf-text/
+pursue_pdf_text/
+war_ufo_text/
+war_ufo_ocr/
+hq_ocr/pages/
+hq_ocr/tesseract/
+
+# Third-party package source/cache
+sgp4/
+sgp4-2.9/
+sgp4-2.9.tar.gz
+
+# Local generated image/video metadata caches
+image_meta/
+video_probe_json/
+

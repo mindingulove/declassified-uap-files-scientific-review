@@ -1,0 +1,37 @@
+{
+  "apiversion": "4.0.1",
+  "day": 1,
+  "month": 9,
+  "numphases": 4,
+  "phasedata": [
+    {
+      "day": 6,
+      "month": 9,
+      "phase": "Last Quarter",
+      "time": "22:21",
+      "year": 2023
+    },
+    {
+      "day": 15,
+      "month": 9,
+      "phase": "New Moon",
+      "time": "01:40",
+      "year": 2023
+    },
+    {
+      "day": 22,
+      "month": 9,
+      "phase": "First Quarter",
+      "time": "19:32",
+      "year": 2023
+    },
+    {
+      "day": 29,
+      "month": 9,
+      "phase": "Full Moon",
+      "time": "09:57",
+      "year": 2023
+    }
+  ],
+  "year": 2023
+}

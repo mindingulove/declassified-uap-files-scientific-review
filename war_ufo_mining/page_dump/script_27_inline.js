@@ -1,0 +1,1 @@
+{"@context":"http://schema.org","@type":"Organization","logo":"https://www.war.gov/Portals/1/Images/DOD-Icon-Header.png?ver=5sAfFl2--9znca0j3SrX_g%3d%3d","name":"U.S. Department of War","url":"https://www.war.gov/","sameAs":[]}
