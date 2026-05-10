@@ -2,6 +2,12 @@
 .DS_Store
 .claude/
 
+# Local secrets
+.env
+*.env
+.env.*
+!.env.example
+
 # Python caches
 __pycache__/
 *.py[cod]
@@ -32,4 +38,3 @@ sgp4-2.9.tar.gz
 # Local generated image/video metadata caches
 image_meta/
 video_probe_json/
-
