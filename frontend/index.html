@@ -315,9 +315,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  function closeActiveModal() {
+    const modalEl = document.querySelector('.modal.show');
+    if (!modalEl) return false;
+    const modal = bootstrap.Modal.getInstance(modalEl) || bootstrap.Modal.getOrCreateInstance(modalEl);
+    modal.hide();
+    return true;
+  }
+
   function shouldIgnoreArrowShortcut(event) {
     if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey) return true;
-    if (document.querySelector('.modal.show')) return true;
+    if (event.key !== ' ' && document.querySelector('.modal.show')) return true;
     const el = event.target;
     if (!el) return false;
     const tag = el.tagName ? el.tagName.toLowerCase() : '';
@@ -497,7 +505,7 @@ document.addEventListener('DOMContentLoaded', function() {
       showRelativeTab(1);
     } else if (event.key === ' ') {
       event.preventDefault();
-      openCurrentAsset();
+      if (!closeActiveModal()) openCurrentAsset();
     }
   });
   setupHypFilters(); renderList();
